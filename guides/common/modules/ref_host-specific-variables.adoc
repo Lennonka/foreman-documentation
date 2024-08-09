@@ -1,7 +1,7 @@
 [id="Host_Specific_Variables_{context}"]
 = Host-specific variables
 
-The following variables enable using host data within templates.
+The following variables enable the use of host data within templates.
 Note that job templates accept only `@host` variables.
 
 .Host-specific variables and macros
@@ -23,7 +23,7 @@ For example to access the 'ipaddress' fact from the output, specify @host.facts[
 |@host.hostgroup |The host group of the host.
 |host_enc['parameters'] |Returns a Ruby hash containing information on host parameters.
 For example, use host_enc['parameters']['lifecycle_environment'] to get the lifecycle environment of a host.
-|@host.image_build? |Returns `true` if the host is provisioned using an image.
+|@host.image_build? |Returns `true` if the host is provisioned by using an image.
 |@host.interfaces |Contains an array of all available host interfaces including the primary interface.
 See xref:Parsing_Arrays_{context}[].
 |@host.interfaces_with_identifier('IDs') |Returns array of interfaces with given identifier.
@@ -52,7 +52,7 @@ Returns an interface object.
 |@host.ptable |The partition table name.
 |@host.puppet_ca_server *Deprecated* Use the `host_puppet_ca_server` variable instead. |The Puppet CA server the host must use.
 |@host.puppetmaster *Deprecated* Use the `host_puppet_server` variable instead. |The Puppet server the host must use.
-|@host.pxe_build? |Returns `true` if the host is provisioned using the network or PXE.
+|@host.pxe_build? |Returns `true` if the host is provisioned by using PXE or HTTP boot.
 |@host.shortname |The short name of the host.
 |@host.sp_ip |The IP address of the BMC interface.
 |@host.sp_mac |The MAC address of the BMC interface.
@@ -71,7 +71,7 @@ Not recommended, as it does not interpolate variables, prefer boot_files_uri.
 |@static |Returns `true` if the network configuration is static.
 |@template_name |Name of the template being rendered.
 |grub_pass |Returns a bootloader argument to set the encrypted bootloader password, such as *--md5pass=#{@host.grub_pass}*.
-|ks_console |Returns a string assembled using the port and the baud rate of the host which can be added to a kernel line.
+|ks_console |Returns a string assembled by using the port and the baud rate of the host which can be added to a kernel line.
 For example *console=ttyS1,9600*.
 |root_pass |Returns the root password configured for the system.
 |====

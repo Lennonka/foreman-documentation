@@ -58,7 +58,7 @@ Any host that is directly connected to {ProjectServer} is a client in this conte
 This includes the base operating system on which a {SmartProxyServer} is running.
 
 A DHCP {SmartProxy} performs ICMP ping and TCP echo connection attempts to hosts in subnets with DHCP IPAM set to find out if an IP address considered for use is free.
-This behavior can be turned off using `{foreman-installer} --foreman-proxy-dhcp-ping-free-ip=false`.
+This behavior can be turned off by using `{foreman-installer} --foreman-proxy-dhcp-ping-free-ip=false`.
 
 .{SmartProxy} outgoing traffic
 [cols="15%,15%,15%,15%,20%,20%",options="header"]
@@ -89,7 +89,7 @@ ifdef::katello,satellite,orcharhino[]
 endif::[]
 | 443 | TCP | HTTPS | Infoblox DHCP Server| DHCP management | When using Infoblox for DHCP, management of the DHCP leases (optional)
 | 623 |  |  | Client | Power management | BMC On/Off/Cycle/Status
-| 7911 | TCP | DHCP, OMAPI | DHCP Server| DHCP | The DHCP target is configured using `--foreman-proxy-dhcp-server` and defaults to localhost
+| 7911 | TCP | DHCP, OMAPI | DHCP Server| DHCP | The DHCP target is configured by using `--foreman-proxy-dhcp-server` and defaults to localhost
 
 ISC and `remote_isc` use a configurable port that defaults to 7911 and uses OMAPI
 | 8443 | TCP | HTTPS | Client | Discovery | {SmartProxy} sends reboot command to the discovered host (optional)

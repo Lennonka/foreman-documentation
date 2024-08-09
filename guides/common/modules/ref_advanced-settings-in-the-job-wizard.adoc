@@ -27,7 +27,7 @@ Time in seconds from the start of the job after which the job should be killed i
 
 Time to pickup::
 Time in seconds after which the job is canceled if it is not picked up by a client.
-This setting only applies to hosts using `pull-mqtt` transport.
+This setting only applies to hosts that use `pull-mqtt` transport.
 
 Password::
 Is used if SSH authentication method is a password instead of the SSH key.

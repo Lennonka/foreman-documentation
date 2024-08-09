@@ -39,7 +39,7 @@ On the Dashboard with an overview of hosts, the search will return all hosts tha
 | NOT HAS or null? | {nbsp}
 |====
 
-Simple queries that follow the described syntax can be combined into more complex ones using logical operators AND, OR, and NOT.
+Simple queries that follow the described syntax can be combined into more complex ones by using logical operators AND, OR, and NOT.
 Alternative notations of the operators are also accepted:
 
 .Logical operators accepted by search

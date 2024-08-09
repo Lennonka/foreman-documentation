@@ -24,9 +24,9 @@ Deviating from the even distribution increases the risk of overloading {ProjectS
 The limit of 100 concurrent requests applies.
 ====
 
-The following table describes the scalability limits using the recommended 4 CPUs.
+The following table describes the scalability limits when using the recommended 4 CPUs.
 
-.Puppet scalability using 4 CPUs
+.Puppet scalability with 4 CPUs
 [cols=",",options="header"]
 |====
 |Puppet Managed Resources per Host| Run-Interval Distribution
@@ -35,9 +35,9 @@ The following table describes the scalability limits using the recommended 4 CPU
 | 20 | 1700{range}1400
 |====
 
-The following table describes the scalability limits using the minimum 2 CPUs.
+The following table describes the scalability limits when using the minimum 2 CPUs.
 
-.Puppet scalability using 2 CPUs
+.Puppet scalability with 2 CPUs
 [cols=",",options="header"]
 |====
 |Puppet Managed Resources per Host| Run-Interval Distribution

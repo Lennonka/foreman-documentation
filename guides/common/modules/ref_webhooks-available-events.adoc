@@ -14,14 +14,14 @@ Some events are marked as *custom*, in that case, the payload is an object objec
 |Actions Katello Content View Promote Succeeded |A content view was successfully promoted.|Actions::Katello::ContentView::Promote
 |Actions Katello Content View Publish Succeeded |A repository was successfully synchronized.|Actions::Katello::ContentView::Publish
 |Actions Remote Execution Run Host Job Succeeded |A generic remote execution job succeeded for a host. This event is emitted for all Remote Execution jobs, when complete.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Errata Install Succeeded |Install errata using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Group Install Succeeded |Install package group using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Package Install Succeeded |Install package using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Group Remove |Remove package group using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Package Remove Succeeded |Remove package using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Service Restart Succeeded |Restart Services using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Group Update Succeeded |Update package group using the Katello interface.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Package Update Succeeded |Update package using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Errata Install Succeeded |Install errata by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Group Install Succeeded |Install package group by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Package Install Succeeded |Install package by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Group Remove |Remove package group by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Package Remove Succeeded |Remove package by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Service Restart Succeeded |Restart Services by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Group Update Succeeded |Update package group by using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Package Update Succeeded |Update package by using the Katello interface.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Foreman OpenSCAP Run Scans Succeeded |Run OpenSCAP scan.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Ansible Run Host Succeeded |Runs an Ansible Playbook containing all the roles defined for a host.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Ansible Run {SmartProxy} Upgrade Succeeded |Upgrade {SmartProxies} on given {SmartProxyServers}.|Actions::RemoteExecution::RunHostJob
@@ -32,7 +32,7 @@ endif::[]
 |Actions Remote Execution Run Host Job Ansible Run Playbook Succeeded |Run an Ansible Playbook against given hosts.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Ansible Enable Web Console Succeeded |Run an Ansible Playbook to enable the web console on given hosts.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Puppet Run Host Succeeded |Perform a single Puppet run.|Actions::RemoteExecution::RunHostJob
-|Actions Remote Execution Run Host Job Katello Module Stream Action Succeeded |Perform a module stream action using the Katello interface.|Actions::RemoteExecution::RunHostJob
+|Actions Remote Execution Run Host Job Katello Module Stream Action Succeeded |Perform a module stream action by using the Katello interface.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Leapp Pre-upgrade Succeeded |Upgradeability check for RHEL 7 host.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Leapp Remediation Plan Succeeded |Run Remediation plan with Leapp.|Actions::RemoteExecution::RunHostJob
 |Actions Remote Execution Run Host Job Leapp Upgrade Succeeded |Run Leapp upgrade job for RHEL 7 host.|Actions::RemoteExecution::RunHostJob

@@ -17,7 +17,7 @@ They define content view and lifecycle environment associations, content overrid
 They are associated to exactly one lifecycle environment and exactly one content view, though this may be a composite content view.
 You can use them on multiple machines and they behave like configuration information rather than traditional software license keys.
 You can also use multiple activation keys with a single host.
-When you register a host using an activation key, certain content from {Project} is provided to the host.
+When you register a host by using an activation key, certain content from {Project} is provided to the host.
 The content that is made available depends on the content in the activation key's content view and lifecycle environment, any content overrides present, any repository-level restrictions such as operating system or architecture, and system purpose attributes such as release version.
 +
 image::common/activation_key.svg[Activation key]
@@ -37,7 +37,7 @@ It uses playbooks and roles to describe and bundle tasks.
 Within {Project}, you can use Ansible to configure hosts and perform xref:Remote-execution-REX[remote execution].
 +
 For more information about using Ansible to configure hosts, see {ManagingConfigurationsAnsibleDocURL}[{ManagingConfigurationsAnsibleDocTitle}].
-For more information about automating {Project} using {Project} Ansible collection, see {ManagingConfigurationsAnsibleDocURL}Managing_Project_with_Ansible_Collections_admin[Managing {Project} with Ansible collections] in _{AdministeringDocTitle}_.
+For more information about automating {Project} by using {Project} Ansible collection, see {ManagingConfigurationsAnsibleDocURL}Managing_Project_with_Ansible_Collections_admin[Managing {Project} with Ansible collections] in _{AdministeringDocTitle}_.
 
 [[Answer_file]]
 Answer file:: A configuration file that defines settings for an installation scenario.
@@ -81,7 +81,7 @@ endif::[]
 Compliance policy::
 Compliance policies refer to the application of SCAP content to hosts by using {Project} with its OpenSCAP plugin.
 You can create compliance policies by using the {ProjectWebUI}, Hammer CLI, or API.
-A compliance policy requires the setting of a specific XCCDF profile from a SCAP content, optionally using a tailoring file.
+A compliance policy requires the setting of a specific XCCDF profile from a SCAP content and, optionally, a tailoring file.
 You can set up scheduled tasks on {Project} that check your hosts for compliance against SCAP content.
 When a compliance policy scan completes, the host sends an xref:ARF_report[ARF report] to {Project}.
 
@@ -119,7 +119,7 @@ Container image:: A static snapshot of the container's configuration.
 Content::
 A general term for everything {Project} distributes to hosts.
 Content includes software packages such as `.{client-pkg-ext}` packages, errata, or Docker images.
-Content is synchronized into the Library and then promoted into lifecycle environments using content views so that they can be consumed by hosts.
+Content is synchronized into the Library and then promoted into lifecycle environments by using content views so that they can be consumed by hosts.
 
 [[Content_delivery_network_CDN]]
 Content delivery network (CDN):: The mechanism used to deliver Red{nbsp}Hat content to {ProjectServer}.
@@ -130,7 +130,7 @@ Content views are named and versioned collections of repositories.
 When you publish a content view, {Project} creates a new content view version.
 This content view version is a frozen snapshot of the current state of the repositories within the content view.
 Any subsequent changes to the underlying repositories will no longer affect the published content view version.
-Once a content view is published, it can be promoted through the lifecycle environment path, or modified using incremental upgrades.
+Once a content view is published, it can be promoted through the lifecycle environment path, or modified by using incremental upgrades.
 
 [[Composite_Content_View]]
 Composite content view::
@@ -365,7 +365,7 @@ If you manage Red{nbsp}Hat content and
 endif::[]
 upload a Red Hat manifest, {Project} automatically groups Red{nbsp}Hat content within products.
 ifndef::satellite[]
-If you manage SUSE content using SCC Manager plugin, {Project} automatically groups SUSE content within products.
+If you manage SUSE content by using SCC Manager plugin, {Project} automatically groups SUSE content within products.
 For more information, see {ContentManagementDocURL}Managing_SUSE_Content_content-management[Managing SUSE content] in _{ContentManagementDocTitle}_.
 endif::[]
 
@@ -417,7 +417,7 @@ Puppet environment:: An isolated set of Puppet agent nodes that can be associate
 
 [[Puppet_manifest]]
 Puppet manifest:: Refers to Puppet scripts, which are files with the *.pp* extension.
-The files contain code to define a set of necessary resources, such as packages, services, files, users and groups, and so on, using a set of key-value pairs for their attributes.
+The files contain code to define a set of necessary resources, such as packages, services, files, users and groups, and so on, by using a set of key-value pairs for their attributes.
 +
 Do not confuse with xref:Manifest[Manifest (Red{nbsp}Hat subscription manifest)].
 
@@ -548,7 +548,7 @@ Authentication and authorization is possible through built-in logic, through ext
 
 [[Virtualization]]
 Virtualization::
-Virtualization describes the process of running multiple operating systems with various applications on a single hardware host using hypervisors like
+Virtualization describes the process of running multiple operating systems with various applications on a single hardware host by using hypervisors like
 ifdef::satellite[]
 VMware or libvirt.
 endif::[]

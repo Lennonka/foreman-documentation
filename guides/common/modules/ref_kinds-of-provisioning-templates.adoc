@@ -20,7 +20,7 @@ For BIOS provisioning, select *PXELinux* template.
 For UEFI provisioning, select *PXEGrub2*.
 
 Finish::
-Post-configuration scripts to execute using an SSH connection when the main provisioning process completes.
+Post-configuration scripts to execute by using an SSH connection when the main provisioning process completes.
 You can use Finish templates only for image-based provisioning in virtual or cloud environments that do not support user_data.
 Do not confuse an image with a foreman discovery ISO, which is sometimes called a Foreman discovery image.
 An image in this context is an install image in a virtualized environment for easy deployment.

@@ -4,7 +4,7 @@
 * Use one content type per product and content view, for example, {client-content-type} content only.
 ifdef::orcharhino[]
 * Use file repositories for installation media.
-File repositories require a `PULP_MANIFEST` file that you can create using `pulp-manifest /path/to/files`.
+File repositories require a `PULP_MANIFEST` file that you can create by using `pulp-manifest /path/to/files`.
 Use local repositories with `\file:///path/to/files` as *Upstream URL* in {Project}, for example, for installation media.
 Alternatively, place the installation media file repositories on a web server that is accessible to the hosts during provisioning.
 +
@@ -13,7 +13,7 @@ include::snip_tip-file-repositories-by-atix.adoc[]
 For more information, see xref:Managing_Custom_File_Type_Content_{context}[].
 endif::[]
 * Make file repositories available over HTTP.
-If you set *Protected* to true, you can only download content using a global debugging certificate.
+If you set *Protected* to true, you can only download content by using a global debugging certificate.
 * Automate the creation of multiple products and repositories by using a Hammer script or an {ansible-docs-url}[Ansible Playbook].
 ifdef::katello,satellite,red_hat_enterprise_linux[]
 * For Red Hat content, import your Red Hat manifest into {Project}.

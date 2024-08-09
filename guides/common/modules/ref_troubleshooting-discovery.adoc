@@ -28,7 +28,7 @@ Particularly useful system logs are tagged as follows:
 * `NetworkManager` — networking information
 
 Use TTY2 or higher to log in to a discovered host.
-The root account and SSH access are disabled by default, but you can enable SSH and set the root password using the following kernel command-line options in the Default PXELinux template on the APPEND line:
+The root account and SSH access are disabled by default, but you can enable SSH and set the root password by using the following kernel command-line options in the Default PXELinux template on the APPEND line:
 [options="nowrap" subs="+quotes,verbatim"]
 ----
 fdi.ssh=1 fdi.rootpw=_My_Password_

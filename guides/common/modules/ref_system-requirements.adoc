@@ -31,7 +31,7 @@ ifdef::satellite[]
 * A current {ProjectName} subscription
 endif::[]
 * Administrative user (root) access
-* Full forward and reverse DNS resolution using a fully-qualified domain name
+* Full forward and reverse DNS resolution by using a fully-qualified domain name
 
 {Project} only supports `UTF-8` encoding.
 If your territory is USA and your language is English, set `en_US.utf-8` as the system-wide locale settings.

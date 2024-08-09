@@ -15,7 +15,7 @@ For more information, run `{foreman-maintain} --help` on your {ProjectServer} or
 For more information, run `{foreman-installer} --full-help` on your {ProjectServer} or {SmartProxyServer}.
 
 [[Hammer_CLI]]
-Hammer CLI:: You can manage {Project} on the command line using `hammer`.
+Hammer CLI:: You can manage {Project} on the command line by using `hammer`.
 For more information on using Hammer CLI,
 ifdef::orcharhino[]
 see xref:sources/installation_and_maintenance/using_hammer_cli.adoc[Using Hammer CLI] or

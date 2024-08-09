@@ -10,7 +10,7 @@
 | *Interpolate ERB in parameters* | Yes | {Project} parses ERB in parameters value in the ENC output.
 | *Always show configuration status* | No | All hosts show a configuration status even when a Puppet {SmartProxy} is not assigned.
 ifndef::satellite[]
-| *Puppet interval* | 35 | Duration in minutes after servers reporting using Puppet are classed as out of sync.
+| *Puppet interval* | 35 | Duration in minutes after servers that report by using Puppet are classed as out of sync.
 | *Puppet out of sync disabled* | No | Disable host configuration status turning to out of sync for Puppet after report does not arrive within configured interval.
 endif::[]
 |====
