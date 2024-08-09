@@ -24,7 +24,7 @@ endif::[]
 For an example of using PXE Booting by {ProjectServer}, see {ProvisioningDocURL}provisioning-workflow_provisioning[Provisioning Workflow] in _{ProvisioningDocTitle}_.
 
 ==== PXE booting requirements
-To provision machines using PXE booting, ensure that you meet the following requirements:
+To provision machines by using PXE booting, ensure that you meet the following requirements:
 
 .Network requirements
 
@@ -45,12 +45,12 @@ For more information, see xref:{SmartProxy}-Networking_planning[].
 * Ensure that the host provisioning interface subnet has a DHCP {SmartProxy} set.
 * Ensure that the host provisioning interface subnet has a TFTP {SmartProxy} set.
 * Ensure that the host provisioning interface subnet has a Templates {SmartProxy} set.
-* Ensure that DHCP with the correct subnet is enabled using the {Project} installer.
-* Enable TFTP using the {Project} installer.
+* Ensure that DHCP with the correct subnet is enabled by using the {Project} installer.
+* Enable TFTP by using the {Project} installer.
 
 [[http-booting]]
 === HTTP booting
-You can use HTTP booting to boot systems over a network using HTTP.
+You can use HTTP booting to boot systems over a network by using HTTP.
 
 [[http-booting-requirements]]
 ==== HTTP booting requirements with managed DHCP
@@ -76,7 +76,7 @@ For HTTP booting to work, ensure that {Project} has the following configurations
 * Both {ProjectServer} and {SmartProxy} have DNS configured and are able to resolve provisioned host names.
 * The UDP ports 67 and 68 are accessible by the client so that the client can send and receive a DHCP request and offer.
 * Ensure that the TCP port 8000 is open for the client to download the bootloader and Kickstart templates from the {SmartProxy}.
-* The TCP port {smartproxy_port} is open for the client to download the bootloader from the {SmartProxy} using the HTTPS protocol.
+* The TCP port {smartproxy_port} is open for the client to download the bootloader from the {SmartProxy} by using the HTTPS protocol.
 * The subnet that functions as the host's provisioning interface has a DHCP {SmartProxy}, an HTTP Boot {SmartProxy}, a TFTP {SmartProxy}, and a Templates {SmartProxy}
 
 ifndef::foreman-deb[]
@@ -134,10 +134,10 @@ endif::[]
 ifdef::foreman-el,katello,orcharhino[]
 === Secure boot
 
-When {Project} is installed on {EL} using `{foreman-installer}`, grub2 and shim bootloaders that are signed by Red Hat are deployed into the TFTP and HTTP UEFI Boot directory.
+When {Project} is installed on {EL} by using `{foreman-installer}`, grub2 and shim bootloaders that are signed by Red Hat are deployed into the TFTP and HTTP UEFI Boot directory.
 PXE loader options named "SecureBoot" configure hosts to load `shim.efi`.
 
-On Debian and Ubuntu operating systems, the grub2 bootloader is created using the `grub2-mkimage` unsigned.
+On Debian and Ubuntu operating systems, the grub2 bootloader is created by using the `grub2-mkimage` unsigned.
 To perform the Secure Boot, the bootloader must be manually signed and key enrolled into the EFI firmware.
 Alternatively, grub2 from Ubuntu or {EL} can be copied to perform booting.
 

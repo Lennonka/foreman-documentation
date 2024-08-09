@@ -1,4 +1,4 @@
-You can register hosts with {Project} using the host registration feature in the {ProjectWebUI}, Hammer CLI, or the {Project} API.
+You can register hosts with {Project} by using global registration in the {ProjectWebUI}, Hammer CLI, or the {Project} API.
 For more information, see {ManagingHostsDocURL}Registering_Hosts_managing-hosts[Registering Hosts] in _{ManagingHostsDocTitle}_.
 
 ifeval::["{context}" == "load-balancing"]
@@ -16,7 +16,7 @@ endif::[]
 . From the *Activation Keys* list, select the activation keys to assign to your host.
 . Click *Generate* to create the registration command.
 . Click on the _files_ icon to copy the command to your clipboard.
-. Connect to your host using SSH and run the registration command.
+. Connect to your host by using SSH and run the registration command.
 ifdef::satellite[]
 . Check the `/etc/yum.repos.d/redhat.repo` file and ensure that the appropriate repositories have been enabled.
 endif::[]
@@ -37,7 +37,7 @@ endif::[]
 endif::[]
 
 .CLI procedure
-. Generate the host registration command using the Hammer CLI:
+. Generate the host registration command by using the Hammer CLI:
 +
 ifndef::katello,satellite,orcharhino[]
 [options="nowrap" subs="+quotes,attributes"]
@@ -77,7 +77,7 @@ You can use the ID of any {SmartProxyServer} that you configured for host regist
 +
 Include the `--force` option to register a host that has been previously registered to a {SmartProxyServer}.
 endif::[]
-. Connect to your host using SSH and run the registration command.
+. Connect to your host by using SSH and run the registration command.
 ifdef::satellite[]
 . Check the `/etc/yum.repos.d/redhat.repo` file and ensure that the appropriate repositories have been enabled.
 endif::[]
@@ -98,7 +98,7 @@ endif::[]
 endif::[]
 
 .API procedure
-. Generate the host registration command using the {Project} API:
+. Generate the host registration command by using the {Project} API:
 +
 ifndef::katello,satellite,orcharhino[]
 [options="nowrap" subs="+quotes,attributes"]
@@ -153,7 +153,7 @@ To enter a password as a command line argument, use `username:password` syntax.
 Keep in mind this can save the password in the shell history.
 Alternatively, you can use a temporary personal access token instead of a password.
 To generate a token in the {ProjectWebUI}, navigate to *My Account* > *Personal Access Tokens*.
-. Connect to your host using SSH and run the registration command.
+. Connect to your host by using SSH and run the registration command.
 ifdef::satellite[]
 . Check the `/etc/yum.repos.d/redhat.repo` file and ensure that the appropriate repositories have been enabled.
 endif::[]

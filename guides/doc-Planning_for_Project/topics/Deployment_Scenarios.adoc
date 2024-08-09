@@ -15,7 +15,7 @@ The base systems of isolated {SmartProxies} can be directly managed by {ProjectS
 === Single location with segregated subnets
 
 Your infrastructure might require multiple isolated subnets even if {ProjectName} is deployed in a single geographic location.
-This can be achieved for example by deploying multiple {SmartProxyServers} with DHCP and DNS services, but the recommended way is to create segregated subnets using a single {SmartProxy}.
+This can be achieved for example by deploying multiple {SmartProxyServers} with DHCP and DNS services, but the recommended way is to create segregated subnets by using a single {SmartProxy}.
 This {SmartProxy} is then used to manage hosts and compute resources in those segregated networks to ensure they only have to access the {SmartProxy} for provisioning, configuration, errata, and general management.
 For more information on configuring subnets see {ManagingHostsDocURL}[_Managing Hosts_].
 
@@ -51,7 +51,7 @@ To see the products in your subscription for which content ISO images are availa
 For instructions on how to import content ISOs to a disconnected {Project}, see {ContentManagementDocURL}Configuring_Server_to_Synchronize_Content_with_a_Local_CDN_Server_content-management[Configuring {Project} to Synchronize Content with a Local CDN Server] in _{ContentManagementDocTitle}_.
 Note that Content ISOs previously hosted at redhat.com for import into {ProjectServer} have been deprecated and will be removed in the next {Project} version.
 
-* *Disconnected {Project} with {ISS}* – in this setup, you install a connected {ProjectServer} and export content from it to populate a disconnected {Project} using some storage device.
+* *Disconnected {Project} with {ISS}* – in this setup, you install a connected {ProjectServer} and export content from it to populate a disconnected {Project} by using some storage device.
 This allows for exporting both Red{nbsp}Hat provided and custom content at the frequency you choose, but requires deploying an additional server with a separate subscription.
 For instructions on how to configure {ISS} in {Project}, see {ContentManagementDocURL}Using_ISS[Synchronizing Content Between {ProjectServer}s] in _{ContentManagementDocTitle}_.
 

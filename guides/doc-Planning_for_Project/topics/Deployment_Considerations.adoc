@@ -38,7 +38,7 @@ For more information, see https://www.redhat.com/en/technologies/management/sate
 The following diagram shows two Red{nbsp}Hat{nbsp}Network account holders, who want their systems to be managed by the same {Project} installation.
 In this scenario, Example Corporation 1 can allocate any subset of their 60 subscriptions, in this example they have allocated 30, to a manifest.
 This can be imported into the {Project} as a distinct Organization.
-This allows system administrators the ability to manage Example Corporation 1's systems using {Project} completely independently of Example Corporation 2's organizations (R&D, Operations, and Engineering).
+This allows system administrators the ability to manage Example Corporation 1's systems by using {Project} completely independently of Example Corporation 2's organizations (R&D, Operations, and Engineering).
 
 [[satellite_server_with_multiple_manifests_image]]
 .{ProjectServer} with multiple manifests
@@ -48,7 +48,7 @@ When creating a Red{nbsp}Hat Subscription Manifest:
 
 
 * Add the subscription for {ProjectServer} to the manifest if planning a disconnected or self-registered {ProjectServer}.
-This is not necessary for a connected {ProjectServer} that is subscribed using the Subscription Manager utility on the base system.
+This is not necessary for a connected {ProjectServer} that is subscribed by using the Subscription Manager utility on the base system.
 
 * Add subscriptions for all {SmartProxyServers} you want to create.
 

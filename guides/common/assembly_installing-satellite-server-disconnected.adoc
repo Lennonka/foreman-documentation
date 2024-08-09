@@ -40,7 +40,7 @@ include::modules/proc_installing-the-sos-package.adoc[leveloffset=+1]
 [id="configuring-server_{context}"]
 == Configuring {ProjectServer}
 
-Install {ProjectServer} using the `{foreman-installer}` installation script.
+Install {ProjectServer} by using the `{foreman-installer}` installation script.
 Choose from one of the following methods:
 
 * xref:Configuring_Installation_{context}[].

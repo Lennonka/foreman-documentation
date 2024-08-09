@@ -34,7 +34,7 @@ Infrastructure and host management services:
 
 * *Puppet Certificate Authority* – {SmartProxy} can integrate with Puppet's CA to provide certificates to hosts.
 
-* *Baseboard Management Controller (BMC)* – {SmartProxy} can provide power management for hosts using IPMI or Redfish.
+* *Baseboard Management Controller (BMC)* – {SmartProxy} can provide power management for hosts by using IPMI or Redfish.
 
 * *Provisioning template proxy* – {SmartProxy} can serve provisioning templates to hosts.
 

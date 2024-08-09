@@ -13,7 +13,7 @@ When you configure {ProjectName} with custom SSL certificates, you must fulfill 
 * The same CA must sign certificates for {ProjectServer} and {SmartProxyServer}.
 * An SSL certificate must not also be a CA certificate.
 * An SSL certificate must include a subject alt name (SAN) entry that matches the common name (CN).
-* An SSL certificate must be allowed for Key Encipherment using a Key Usage extension.
+* An SSL certificate must be allowed for Key Encipherment by using a Key Usage extension.
 * An SSL certificate must not have a shortname as the CN.
 * You must not set a passphrase for the private key.
 

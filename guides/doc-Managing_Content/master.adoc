@@ -10,7 +10,7 @@ The Katello plugin required to manage content in Foreman is not supported on Deb
 endif::[]
 
 ifdef::foreman-el,foreman-deb[]
-If you want to manage content using Foreman/Katello, you have to run Foreman/Katello on {EL}.
+If you want to manage content by using Foreman/Katello, you have to run Foreman/Katello on {EL}.
 Converting an existing Foreman installation on {EL} to Foreman/Katello is not supported.
 For more information, see {BaseURL}Installing_Server/index-katello.html[Installing Foreman Server with Katello plugin on {EL}].
 endif::[]

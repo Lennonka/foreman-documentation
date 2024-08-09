@@ -1,5 +1,5 @@
 ifdef::satellite[]
-You can then serve the generated content using a local web server on the importing {ProjectServer} or in another {ProjectServer} organization.
+You can then serve the generated content by using a local web server on the importing {ProjectServer} or in another {ProjectServer} organization.
 
 You cannot directly import Syncable Format exports.
 Instead, on the importing {ProjectServer} you must:
@@ -13,7 +13,7 @@ Instead, on the importing {ProjectServer} you must:
 endif::[]
 
 ifndef::satellite[]
-You can use the generated content to create the same repository in another {ProjectServer} or in another {ProjectServer} organization using content import.
+You can use the generated content to create the same repository in another {ProjectServer} or in another {ProjectServer} organization by using content import.
 On importing the exported archive, a regular content view is created or updated on your downstream {ProjectServer}.
 ifndef::orcharhino[]
 For more information, see xref:Importing_a_Content_View_Version_{context}[].
