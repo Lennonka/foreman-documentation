@@ -34,7 +34,7 @@ For more information, see xref:Download_Policies_Overview_{context}[].
 * Ensure that you synchronize products that you export to the required date.
 
 .Procedure
-. Export a repository using the product name and repository name:
+. Export a repository by using the product name and repository name:
 +
 [options="nowrap" subs="+quotes"]
 ----
@@ -47,7 +47,7 @@ For more information, see xref:Download_Policies_Overview_{context}[].
 [NOTE]
 ====
 The size of the exported archive depends on the number and size of the packages within the repository.
-If you want to split the exported archive into chunks, export your repository using the `--chunk-size-gb` argument to limit the size by an integer value in gigabytes, for example `---chunk-size-gb=_2_`.
+If you want to split the exported archive into chunks, export your repository by using the `--chunk-size-gb` argument to limit the size by an integer value in gigabytes, for example `---chunk-size-gb=_2_`.
 ====
 . Optional: Verify that the exported archive is located in the export directory:
 +

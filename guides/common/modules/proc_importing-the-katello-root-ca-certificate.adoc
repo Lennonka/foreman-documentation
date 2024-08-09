@@ -16,7 +16,7 @@ To use the CLI instead of the {ProjectWebUI}, see xref:CLI_Importing_the_Katello
 ----
 # hostname -f
 ----
-. Access the `pub` directory on your {ProjectServer} using a web browser pointed to the fully qualified domain name:
+. Access the `pub` directory on your {ProjectServer} by using a web browser pointed to the fully qualified domain name:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

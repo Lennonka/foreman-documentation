@@ -5,7 +5,7 @@ You can export a version of a content view to a syncable format that you can use
 After you have exported the content view, you can do either of the following:
 
 * Synchronize the content from your custom CDN over HTTP/HTTPS.
-* Import the content using `hammer content-import`.
+* Import the content by using `hammer content-import`.
 Note that this requires both the Export and Import servers to run {Project} {ProjectVersion}.
 
 include::snip_generating-content.adoc[]

@@ -4,7 +4,7 @@
 You can use the `foreman-rake audits:expire` command to remove audit records at any time.
 
 .Procedure
-* Delete the audit records using the `foreman-rake audits:expire` command:
+* Delete the audit records by using the `foreman-rake audits:expire` command:
 +
 [options="nowrap" subs="+quotes,verbatim,attributes"]
 ----

@@ -4,7 +4,7 @@
 You can delete tasks by ID, for example if you have submitted confidential data by mistake.
 
 .Procedure
-. Connect to your {ProjectServer} using SSH:
+. Connect to your {ProjectServer} by using SSH:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

@@ -69,7 +69,7 @@ ifndef::satellite,orcharhino[]
 # {client-package-install-sles} puppet-agent
 ----
 endif::[]
-. Add the Puppet agent to `PATH` in your current shell using the following script:
+. Add the Puppet agent to `PATH` in your current shell by using the following script:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

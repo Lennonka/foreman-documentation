@@ -1,18 +1,18 @@
-[id="Importing_Report_Templates_Using_the_API_{context}"]
-= Importing report templates using the {Project} API
+[id="Importing_Report_Templates_by_Using_the_API_{context}"]
+= Importing report templates by using the {Project} API
 
 You can use the {Project} API to import report templates into {Project}.
-Importing report templates using the {Project} API automatically parses the report template metadata and assigns organizations and locations.
+Importing report templates by using the {Project} API automatically parses the report template metadata and assigns organizations and locations.
 ifdef::satellite[]
 For more information about using the {Project} API, see the {APIDocURL}[{APIDocTitle}].
 endif::[]
 
 .Prerequisites
-* Create a template using `.erb` syntax or export a template from another {Project}.
+* Create a template by using `.erb` syntax or export a template from another {Project}.
 +
 For more information about writing templates, see xref:Template_Writing_Reference_{context}[].
 +
-For more information about exporting templates from {Project}, see xref:Exporting_Report_Templates_Using_the_API_{context}[].
+For more information about exporting templates from {Project}, see xref:Exporting_Report_Templates_by_Using_the_API_{context}[].
 
 .Procedure
 . Use the following example to format the template that you want to import to a `.json` file:

@@ -10,7 +10,7 @@ This example shows how to add the _ntp module_ to hosts.
 .Procedure
 . Navigate to https://forge.puppet.com/[forge.puppet.com] and search for `ntp`.
 One of the first modules is _puppetlabs/ntp_.
-. Connect to your {ProjectServer} using SSH and install the Puppet module:
+. Connect to your {ProjectServer} by using SSH and install the Puppet module:
 +
 [options="nowrap", subs="verbatim,quotes,attributes"]
 ----

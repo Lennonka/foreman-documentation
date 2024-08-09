@@ -45,14 +45,14 @@ endif::[]
 .Procedure
 . In the {ProjectWebUI}, navigate to *Configure* > *Global Parameters* to add host parameters globally.
 Alternatively, you can navigate to *Configure* > *Host Groups* and edit or create a host group to add host parameters only to a host group.
-. Enable the Puppet agent using a host parameter in global parameters or a host group.
+. Enable the Puppet agent by using a host parameter in global parameters or a host group.
 ifdef::katello,orcharhino,satellite[]
 Add a host parameter named `enable-puppet7`, select the *boolean* type, and set the value to `true`.
 endif::[]
 ifndef::katello,orcharhino,satellite[]
 Add a host parameter named `enable-official-puppet7-repo`, select the *boolean* type, and set the value to `true`.
 endif::[]
-. Specify configuration for the Puppet agent using the following host parameters in global parameters or a host group:
+. Specify configuration for the Puppet agent by using the following host parameters in global parameters or a host group:
 * Add a host parameter named `puppet_server`, select the *string* type, and set the value to the hostname of your Puppet server, such as `puppet.example.com`.
 * Optional: Add a host parameter named `puppet_ca_server`, select the *string* type, and set the value to the hostname of your Puppet CA server, such as `puppet-ca.example.com`.
 If `puppet_ca_server` is not set, the Puppet agent will use the same server as `puppet_server`.
@@ -63,7 +63,7 @@ ifndef::orcharhino[]
 Until the https://bugzilla.redhat.com/show_bug.cgi?id=2177730[BZ2177730] is resolved, you must use host parameters to specify the Puppet agent configuration even in integrated setups where the Puppet server is a {SmartProxyServer}.
 endif::[]
 ifdef::katello,orcharhino,satellite[]
-. Navigate to *Hosts* > *Register Host* and register your host using an appropriate activation key.
+. Navigate to *Hosts* > *Register Host* and register your host by using an appropriate activation key.
 endif::[]
 ifndef::katello,orcharhino,satellite[]
 . Navigate to *Hosts* > *Register Host* and register your host.

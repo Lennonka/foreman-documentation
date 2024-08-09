@@ -4,7 +4,7 @@
 The Salt Master can directly upload Salt reports to {Project}.
 
 .Procedure
-. Connect to your Salt Master using SSH:
+. Connect to your Salt Master by using SSH:
 +
 [source,none]
 ----

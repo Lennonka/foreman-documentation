@@ -38,7 +38,7 @@ Note that Kickstart repositories only have minor versions.
 --product "Red Hat Enterprise Linux Server" \
 --organization "_My_Organization_"
 ----
-. Enable the repository using either the name or ID number.
+. Enable the repository by using either the name or ID number.
 Include the release version, such as `7Server`, and base architecture, such as `x86_64`.
 +
 [options="nowrap" subs="+quotes"]

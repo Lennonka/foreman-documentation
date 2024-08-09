@@ -1,7 +1,7 @@
 [id="Installing_Python_Packages_from_{project-context}_Server_{context}"]
 = Installing Python packages from {ProjectServerTitle}
 
-You can install Python packages from {Project} on hosts using `pip`.
+You can install Python packages from {Project} on hosts by using `pip`.
 
 .Prerequisites
 * You have uploaded or synchronized a Python package to {Project}.
