@@ -9,7 +9,7 @@ To install and update packages on the {ProjectServer} or {SmartProxyServer} base
 The `{foreman-maintain} packages` command restarts some services on the operating system where you run it because it runs the `{foreman-installer}` command after installing packages.
 ====
 
-You can manage packages using `{foreman-maintain} packages` command as follows:
+You can manage packages by using `{foreman-maintain} packages` command as follows:
 
 * To install packages on {ProjectServer} or {SmartProxyServer}:
 +

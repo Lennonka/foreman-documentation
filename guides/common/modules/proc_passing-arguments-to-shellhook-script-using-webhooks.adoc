@@ -1,7 +1,7 @@
-[id="passing-arguments-to-shellhook-script-using-webhooks_{context}"]
-= Passing arguments to shellhook script using webhooks
+[id="passing-arguments-to-shellhook-script-by-using-webhooks_{context}"]
+= Passing arguments to shellhook script by using webhooks
 
-Use this procedure to pass arguments to a shellhook script using webhooks.
+Use this procedure to pass arguments to a shellhook script by using webhooks.
 
 .Procedure
 * When creating a webhook, on the *Additional* tab, create HTTP headers in the following format:

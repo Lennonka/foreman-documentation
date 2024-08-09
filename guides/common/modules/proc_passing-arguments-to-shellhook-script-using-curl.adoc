@@ -1,10 +1,10 @@
-[id="passing-arguments-to-shellhook-script-using-curl_{context}"]
-= Passing arguments to shellhook script using curl
+[id="passing-arguments-to-shellhook-script-by-using-curl_{context}"]
+= Passing arguments to shellhook script by using curl
 
-Use this procedure to pass arguments to a shellhook script using curl.
+Use this procedure to pass arguments to a shellhook script by using curl.
 
 .Procedure
-* When executing a shellhook script using `curl`, create HTTP headers in the following format:
+* When executing a shellhook script by using `curl`, create HTTP headers in the following format:
 +
 [options="nowrap" subs="+quotes,attributes,verbatim"]
 ----

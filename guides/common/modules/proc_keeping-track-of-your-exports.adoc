@@ -35,7 +35,7 @@ This option is available for all `content-export` operations.
 ----
 
 .Querying export records
-* List content exports using the following command:
+* List content exports by using the following command:
 +
 [subs="+quotes"]
 ----

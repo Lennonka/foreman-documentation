@@ -24,7 +24,7 @@ If your template is called `Install Errata - Katello Ansible Default`, name your
 [id="cli-running-custom-code-while-applying-errata_{context}"]
 .CLI procedure
 . Create a plain text file that contains your custom snippet.
-. Create the template using `hammer`:
+. Create the template by using `hammer`:
 +
 [options="nowrap" subs="+quotes"]
 ----

@@ -1,5 +1,5 @@
-[id="Managing_and_Monitoring_Hosts_Using_Cockpit_{context}"]
-= Managing and monitoring hosts using {the-Cockpit}
+[id="Managing_and_Monitoring_Hosts_by_Using_Cockpit_{context}"]
+= Managing and monitoring hosts by using {the-Cockpit}
 
 You can access the {Cockpit} UI through the {ProjectWebUI} and use the functionality to manage and monitor hosts in {Project}.
 

@@ -37,7 +37,7 @@ endif::[]
 # hammer repository list \
 --organization "_My_Organization_"
 ----
-. Synchronize a corrupted repository using the necessary option:
+. Synchronize a corrupted repository by using the necessary option:
 +
 * For the optimized synchronization:
 +

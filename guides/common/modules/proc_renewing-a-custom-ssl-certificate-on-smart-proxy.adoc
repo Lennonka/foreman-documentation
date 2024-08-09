@@ -41,7 +41,7 @@ In return, you will receive the {SmartProxyServer} certificate and CA bundle.
 +
 You can move the copied file to the applicable path if required.
 . Retain a copy of the `{foreman-installer}` command that the `{certs-generate}` command returns for deploying the certificate to your {SmartProxyServer}.
-. Deploy the certificate on your {SmartProxyServer} using the `{foreman-installer}` command returned by the `{certs-generate}` command:
+. Deploy the certificate on your {SmartProxyServer} by using the `{foreman-installer}` command returned by the `{certs-generate}` command:
 +
 [options="nowrap" subs="+quotes,attributes"]
 ----

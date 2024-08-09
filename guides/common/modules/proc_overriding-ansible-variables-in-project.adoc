@@ -34,7 +34,7 @@ This is useful for sensitive values such as passwords or secret tokens.
 Order at the top takes higher precedence.
 The first match wins.
 +
-You can combine multiple attributes into a single matcher key using a comma as the AND operation.
+You can combine multiple attributes into a single matcher key by using a comma as the AND operation.
 For example, the matcher key of `hostgroup, environment` would expect matchers such as `hostgroup = "web servers"` AND `environment = production`.
 +
 If you use the parameter type *array* or *hash*, you can further set:

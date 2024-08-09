@@ -65,7 +65,7 @@ Hosts will use this CA file to connect to {Project} with all future calls making
 {Team} recommends that you avoid insecure calls.
 +
 If an attacker, located in the network between {Project} and a host, fetches the CA file from the first insecure call, the attacker will be able to access the content of the API calls to and from the registered host and the JSON Web Tokens (JWT).
-Therefore, if you have chosen to deploy SSH keys during registration, the attacker will be able to access the host using the SSH key.
+Therefore, if you have chosen to deploy SSH keys during registration, the attacker will be able to access the host by using the SSH key.
 +
 Instead, you can manually copy and install the CA file on each host before registering the host.
 +

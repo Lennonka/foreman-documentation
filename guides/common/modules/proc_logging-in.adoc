@@ -10,7 +10,7 @@ For more information, see xref:Importing_the_Katello_Root_CA_Certificate_{contex
 endif::[]
 
 .Procedure
-. Access {ProjectServer} using a web browser pointed to the fully qualified domain name:
+. Access {ProjectServer} by using a web browser pointed to the fully qualified domain name:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

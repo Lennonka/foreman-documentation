@@ -5,7 +5,7 @@ If the host's host name is not an FQDN, or is not RFC-compliant (containing a ch
 If you cannot update the host to use an FQDN that is accepted by {Project}, you can use the bootstrap script to specify an alternative FQDN.
 
 .Procedure
-. Set `create_new_host_when_facts_are_uploaded` and `create_new_host_when_report_is_uploaded` to false using Hammer:
+. Set `create_new_host_when_facts_are_uploaded` and `create_new_host_when_report_is_uploaded` to false by using Hammer:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

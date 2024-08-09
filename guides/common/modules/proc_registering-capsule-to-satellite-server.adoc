@@ -16,7 +16,7 @@ For more information on manifests and repositories, see {ContentManagementDocURL
 
 .Proxy and network prerequisites
 * The {ProjectServer} base operating system must be able to resolve the host name of the {SmartProxy} base operating system and vice versa.
-* Ensure HTTPS connection using client certificate authentication is possible between {SmartProxyServer} and {ProjectServer}.
+* Ensure HTTPS connection by using client certificate authentication is possible between {SmartProxyServer} and {ProjectServer}.
 HTTP proxies between {SmartProxyServer} and {ProjectServer} are not supported.
 * You must configure the host and network-based firewalls accordingly.
 For more information, see {InstallingSmartProxyDocURL}{smart-proxy-context}-port-and-firewall-requirements_{smart-proxy-context}[Port and firewall requirements] in _{InstallingSmartProxyDocTitle}_.

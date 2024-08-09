@@ -1,4 +1,4 @@
-[id="Registering_Clients_Using_Host_Registration_{context}"]
-= Registering clients using host registration
+[id="Registering_Clients_by_Using_Host_Registration_{context}"]
+= Registering clients by using host registration
 
 include::snip_host-registration-steps.adoc[]

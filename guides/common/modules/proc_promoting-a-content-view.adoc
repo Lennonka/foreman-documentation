@@ -30,7 +30,7 @@ Now the repository for the content view appears in all environments.
 
 [id="cli-promoting-a-content-view_{context}"]
 .CLI procedure
-* Promote the content view using Hammer for each lifecycle environment:
+* Promote the content view by using Hammer for each lifecycle environment:
 +
 [options="nowrap" subs="+quotes"]
 ----
@@ -52,7 +52,7 @@ Now the repository for the content view appears in all environments.
 ----
 +
 Now the database content is available in all environments.
-* Alternatively, you can promote content views across all lifecycle environments within an organization using the following Bash script:
+* Alternatively, you can promote content views across all lifecycle environments within an organization by using the following Bash script:
 +
 [source,terminal,options="nowrap" subs="verbatim,quotes"]
 ----

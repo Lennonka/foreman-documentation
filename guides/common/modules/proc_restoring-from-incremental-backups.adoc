@@ -7,7 +7,8 @@ If you have multiple branches of incremental backups, select your full backup an
 When the restore process completes, all processes are online, and all databases and system configuration revert to the state at the time of the backup.
 
 .Procedure
-. Restore the last full backup using the instructions in xref:Restoring_from_a_Full_Backup_{context}[].
+. Restore the last full backup.
+For more information, see xref:Restoring_from_a_Full_Backup_{context}[].
 . Remove the full backup data from {ProjectServer}’s local file system, for example, `/var/` or `/var/tmp/`.
 . Copy the incremental backup data to {ProjectServer}’s local file system, for example, `/var/` or `/var/tmp/`.
 . Restore the incremental backups in the same sequence that they are made:

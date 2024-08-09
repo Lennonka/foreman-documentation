@@ -44,7 +44,7 @@ To authenticate to the {ProjectWebUI} by using {keycloak} TOTP authentication:
 Once authenticated, your browser redirects you back to {Project} and logs you in.
 
 ifndef::satellite,orcharhino[]
-To log in to the {ProjectWebUI} using the {keycloak} {PIV} cards:
+To log in to the {ProjectWebUI} by using the {keycloak} {PIV} cards:
 
 . In Mozilla Firefox, log in to {Project} and enter your credentials.
 . When prompted, enter the PIN of the {PIV} card.

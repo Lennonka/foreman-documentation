@@ -48,6 +48,6 @@ After you run the `{foreman-installer}` command to make any changes to your {Sma
 
 .. In the {ProjectWebUI}, navigate to *Infrastructure* > *Subnets* and select the subnet name.
 .. In the *Subnet* tab, set *IPAM* to *DHCP* or *Internal DB*.
-.. In the *Domains* tab, select the domain that you want to manage using {Project} or {SmartProxy}.
+.. In the *Domains* tab, select the domain that you want to manage by using {Project} or {SmartProxy}.
 .. In the *{SmartProxies}* tab, set *Reverse DNS {SmartProxy}* to the {SmartProxy} where the subnet is connected.
 .. Click *Submit* to save the changes.
