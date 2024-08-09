@@ -15,7 +15,7 @@ The *Help* tab provides information about the template syntax and details the av
 
 . Before you create a template with the CLI, create a plain text file that contains the template.
 This example uses the `~/my-template` file.
-. Create the template using the `hammer template create` command and specify the type with the `--type` option:
+. Create the template by using the `hammer template create` command and specify the type with the `--type` option:
 +
 [options="nowrap" subs="+quotes"]
 ----

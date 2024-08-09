@@ -63,7 +63,7 @@ This is being tracked in https://projects.theforeman.org/issues/33543[issue #335
 endif::[]
 For more information see the *sendmail 1* man page.
 
-. If you decide to send email using an SMTP server which uses TLS authentication, also perform one of the following steps:
+. If you decide to send email by using an SMTP server which uses TLS authentication, also perform one of the following steps:
 +
 * Mark the CA certificate of the SMTP server as trusted.
 To do so, execute the following commands on {ProjectServer}:

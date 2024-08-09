@@ -6,7 +6,7 @@ To provision Ubuntu 22.04, you need to provide both the ISO image and the extrac
 :iso_image: ubuntu-22.04.3-live-server-amd64.iso
 
 .Procedure
-. Connect to your {ProjectServer} using SSH:
+. Connect to your {ProjectServer} by using SSH:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

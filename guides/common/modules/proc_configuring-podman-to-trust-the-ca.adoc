@@ -7,7 +7,7 @@ Copy the root CA file to one of these locations, with the exact path determined 
 
 In the following examples, replace `hostname.example.com` with `{foreman-example-com}` or `{smartproxy-example-com}`, depending on your use case.
 
-* You might first need to create the relevant location using:
+* You might first need to create the relevant location:
 +
 [options="nowrap", subs="+quotes,attributes"]
 ----

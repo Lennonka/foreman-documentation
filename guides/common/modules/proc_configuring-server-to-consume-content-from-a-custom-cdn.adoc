@@ -24,7 +24,7 @@ For more information, see {ContentManagementDocURL}Importing_Custom_SSL_Certific
 . You can now enable Red{nbsp}Hat repositories consumed from your internal CDN server.
 
 .CLI procedure
-. Connect to your {ProjectServer} using SSH.
+. Connect to your {ProjectServer} by using SSH.
 . Set CDN configuration to your custom CDN server:
 +
 [options="nowrap" subs="+quotes,attributes"]

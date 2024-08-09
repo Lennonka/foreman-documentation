@@ -30,7 +30,7 @@ This also includes creating the necessary directories and files for PXE booting 
 If you start the physical host and set its boot mode to PXE, the host detects the DHCP service of {ProjectServer}'s integrated {SmartProxy}, receives HTTP endpoint of the Kickstart tree and installs the operating system.
 
 ifdef::katello,satellite,orcharhino[]
-When the installation completes, the host also registers to {ProjectServer} using the activation key and installs the necessary configuration and management tools from the {project-client-name} repository.
+When the installation completes, the host also registers to {ProjectServer} by using the activation key and installs the necessary configuration and management tools from the {project-client-name} repository.
 endif::[]
 
 [id="cli-creating-hosts-with-unattended-provisioning_{context}"]
@@ -49,7 +49,7 @@ endif::[]
 --name "_My_Host_Name_" \
 --organization "_My_Organization_"
 ----
-. Ensure the network interface options are set using the `hammer host interface update` command:
+. Ensure the network interface options are set by using the `hammer host interface update` command:
 +
 ----
 # hammer host interface update \

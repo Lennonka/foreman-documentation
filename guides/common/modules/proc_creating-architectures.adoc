@@ -10,7 +10,7 @@ Use this procedure to create an architecture in {Project}.
 ifdef::satellite[]
 .Supported architectures
 
-Only Intel x86_64 architecture is supported for provisioning using PXE, Discovery, and boot disk.
+Only Intel x86_64 architecture is supported for provisioning by using PXE, Discovery, and boot disk.
 For more information, see the Red Hat Knowledgebase solution https://access.redhat.com/solutions/2674001[Supported architectures and provisioning scenarios in Satellite 6].
 endif::[]
 

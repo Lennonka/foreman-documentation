@@ -3,7 +3,7 @@
 
 If {Project} is configured with an alternate CNAME, you can configure hosts to use the alternate {Project} CNAME for content management.
 To do this, you must point hosts to the alternate {Project} CNAME prior to registering the hosts to {Project}.
-You can do this using the bootstrap script or manually.
+You can do this by using the bootstrap script or manually.
 
 .Configuring hosts with the bootstrap script
 

@@ -2,7 +2,7 @@
 = Configuring a proxy for PXE file downloads
 
 For Red Hat content served through the Content Delivery Network, {SmartProxy} downloads PXE files from synchronized repositories.
-However, when configuring and installing an operating system using Installation Media, {SmartProxy} connects directly using the `wget` utility.
+However, when configuring and installing an operating system by using Installation Media, {SmartProxy} connects directly by using the `wget` utility.
 
 .Procedure
 

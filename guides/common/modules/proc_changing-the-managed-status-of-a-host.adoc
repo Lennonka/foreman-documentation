@@ -6,7 +6,7 @@ When a host is set to Managed, you can configure additional host parameters from
 These additional parameters are listed on the *Operating System* tab.
 If you change any settings on the *Operating System* tab, they will not take effect until you set the host to build and reboot it.
 
-If you need to obtain reports about configuration management on systems using an operating system not supported by {Project}, set the host to Unmanaged.
+If you need to obtain reports about configuration management on systems that use an operating system not supported by {Project}, set the host to Unmanaged.
 
 .Procedure
 . In the {ProjectWebUI}, navigate to *Hosts* > *All Hosts*.

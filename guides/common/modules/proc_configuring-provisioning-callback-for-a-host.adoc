@@ -54,7 +54,7 @@ Do not add `https` because this is appended by {Project}.
 |====
 +
 . Click *Submit*.
-. Create a host using the host group.
+. Create a host by using the host group.
 . On the new host, enter the following command to start the `ansible-callback` service:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]

@@ -33,5 +33,5 @@ Specify one of the following options for `--http-proxy-policy`:
 +
 ** `none`: Do not use an HTTP proxy, even if a global default proxy is configured.
 ** `global_default_http_proxy`: Use the global default proxy setting.
-** `use_selected_http_proxy`: Specify an HTTP proxy using either `--http-proxy _My_HTTP_Proxy_Name_` or `--http-proxy-id _My_HTTP_Proxy_ID_`.
+** `use_selected_http_proxy`: Specify an HTTP proxy by using either `--http-proxy _My_HTTP_Proxy_Name_` or `--http-proxy-id _My_HTTP_Proxy_ID_`.
 To add a new HTTP proxy to {Project}, see xref:Adding_an_HTTP_Proxy_{context}[].

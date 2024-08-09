@@ -37,7 +37,7 @@ You can also use the file browser in the template editor to import the layout fr
 . Create a plain text file, such as `_~/My_Partition_Table_`, that contains the partition layout.
 +
 include::snip_ptable-format.adoc[]
-. Create the installation medium using the `hammer partition-table create` command:
+. Create the installation medium by using the `hammer partition-table create` command:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

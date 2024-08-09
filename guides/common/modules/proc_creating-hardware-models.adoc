@@ -14,7 +14,7 @@ Use this procedure to create a hardware model in {Project} so that you can speci
 
 .CLI procedure
 
-* Create a hardware model using the `hammer model create` command.
+* Create a hardware model by using the `hammer model create` command.
 The only required parameter is `--name`.
 Optionally, enter the hardware model with the `--hardware-model` option, a vendor class with the `--vendor-class` option, and a description with the `--info` option:
 +

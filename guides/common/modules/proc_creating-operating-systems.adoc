@@ -14,10 +14,10 @@ ifndef::foreman-deb,orcharhino[]
 To import operating systems from Red Hat's CDN, enable the Red Hat repositories of the operating systems and synchronize the repositories to {Project}.
 For more information, see {ContentManagementDocURL}Enabling_Red_Hat_Repositories_content-management[Enabling Red Hat Repositories] and {ContentManagementDocURL}[Synchronizing Repositories] in _{ContentManagementDocTitle}_.
 
-You can also add custom operating systems using the following procedure.
+You can also add custom operating systems by using the following procedure.
 endif::[]
 ifdef::foreman-deb,orcharhino[]
-You can add operating systems using the following procedure.
+You can add operating systems by using the following procedure.
 endif::[]
 To use the CLI instead of the {ProjectWebUI}, see the xref:cli-creating-operating-systems_{context}[].
 
@@ -57,7 +57,7 @@ endif::[]
 
 [id="cli-creating-operating-systems_{context}"]
 .CLI procedure
-* Create the operating system using the `hammer os create` command:
+* Create the operating system by using the `hammer os create` command:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

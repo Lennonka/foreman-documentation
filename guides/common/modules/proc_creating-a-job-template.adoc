@@ -34,7 +34,7 @@ For more information, see {ManagingHostsDocURL}template_writing_reference_managi
 
 [id="cli-creating-a-job-template_{context}"]
 .CLI procedure
-* To create a job template using a template-definition file, enter the following command:
+* To create a job template by using a template-definition file, enter the following command:
 +
 [options="nowrap", subs="+quotes,attributes"]
 ----

@@ -20,7 +20,7 @@ The name must start with the name of a provisioning template that supports inclu
 [id="cli-Creating_Custom_Provisioning_Snippets_{context}"]
 .CLI procedure
 . Create a plain text file that contains your custom snippet.
-. Create the template using `hammer`:
+. Create the template by using `hammer`:
 +
 [options="nowrap" subs="+quotes"]
 ----

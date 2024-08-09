@@ -20,7 +20,7 @@ Replace _{Project}_Realm_ with the name of the {keycloak} realm created for your
 
 On the {Project} client registered to {keycloak}:
 
-. Set the login delegation to `true` so that users can authenticate using the Open IDC protocol:
+. Set the login delegation to `true` so that users can authenticate by using the Open IDC protocol:
 +
 ----
 # hammer settings set --name authorize_login_delegation --value true

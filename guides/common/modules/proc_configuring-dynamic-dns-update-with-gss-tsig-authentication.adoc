@@ -157,6 +157,6 @@ grant {smart-proxy-principal}\047__{foreman-example-com}@EXAMPLE.COM__ wildcard 
 .. Configure the subnet:
 ... In the {ProjectWebUI}, navigate to *Infrastructure* > *Subnets* and select the subnet name.
 ... In the *Subnet* tab, set *IPAM* to *None*.
-... In the *Domains* tab, select the domain that you want to manage using the IdM server.
+... In the *Domains* tab, select the domain that you want to manage by using the IdM server.
 ... In the *{SmartProxies}* tab, ensure *Reverse DNS {SmartProxy}* is set to the {SmartProxy} where the subnet is connected.
 ... Click *Submit* to save the changes.

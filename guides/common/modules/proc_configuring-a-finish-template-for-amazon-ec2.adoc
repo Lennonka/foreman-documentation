@@ -10,7 +10,7 @@ You can use {ProjectName} finish templates during the provisioning of Linux inst
 endif::[]
 
 If you want to use a Finish template with SSH, {Project} must reside within the EC2 environment and in the correct security group.
-{Project} currently performs SSH finish provisioning directly, not using {SmartProxyServer}.
+{Project} currently performs SSH finish provisioning directly, not by using {SmartProxyServer}.
 If {ProjectServer} does not reside within EC2, the EC2 virtual machine reports an internal IP rather than the necessary external IP with which it can be reached.
 
 .Procedure

@@ -33,7 +33,7 @@ For more information on how to apply custom configuration on other services, see
 
 ifdef::foreman-el,foreman-deb[]
 * By default, {ProjectServer} is installed with the Puppet agent running as a service.
-If required, you can disable Puppet agent on {ProjectServer} using the `--puppet-runmode=none` option.
+If required, you can disable Puppet agent on {ProjectServer} by using the `--puppet-runmode=none` option.
 endif::[]
 
 .Procedure

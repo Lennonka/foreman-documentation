@@ -36,7 +36,7 @@ To clone {ProjectServer}, ensure that you have the following resources available
 Do not install {EL} 8 software groups or third-party applications.
 Ensure that your server complies with all the required specifications.
 For more information, see {InstallingServerDocURL}Preparing_your_Environment_for_Installation_{project-context}[Preparing your Environment for Installation] in _{InstallingServerDocTitle}_.
-* A backup of your {ProjectServer} that you make using the `{foreman-maintain} backup` script.
+* A backup of your {ProjectServer} that you make by using the `{foreman-maintain} backup` script.
 You can use a backup with or without Pulp data.
 * A {Project} subscription for the target server.
 
@@ -59,8 +59,8 @@ If the target server does not have Pulp data. it is not a fully working {Project
 
 To transfer Pulp data to a target server, you have two options:
 
-* Clone using backup with Pulp data
-* Clone using backup without Pulp data and copy `/var/lib/pulp` manually from the source server.
+* Clone by using backup with Pulp data
+* Clone by using backup without Pulp data and copy `/var/lib/pulp` manually from the source server.
 
 If your `pulp_data.tar` file is greater than 500 GB, or if you use a slow storage system, such as NFS, and your `pulp_data.tar` file is greater than 100 GB, do not include `pulp_data.tar` in the backup because this can cause memory errors during extraction.
 Copy the `pulp_data.tar` file from the source server to the target server.
@@ -209,4 +209,4 @@ For more information, see {AdministeringDocURL}renaming-{project-context}_admin[
 . If the source server uses the `virt-who` daemon, install and configure it on the target server.
 Copy all the `virt-who` configuration files in the `/etc/virt-who.d/` directory from the source server to the same directory on the target server.
 For more information, see {ConfiguringVMSubscriptionsDocURL}[_{ConfiguringVMSubscriptionsDocTitle}_].
-After you perform an upgrade using the following chapters, you can safely decommission the source server.
+After you perform an upgrade by using the following chapters, you can safely decommission the source server.

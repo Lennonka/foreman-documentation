@@ -31,7 +31,7 @@ Two types of wildcard characters are supported: underscore (_) provides single c
 
 For most resource types, the *Search* field provides a drop-down list suggesting the available parameters.
 This list appears after placing the cursor in the search field.
-For many resource types, you can combine queries using logical operators such as _and_, _not_ and _has_ operators.
+For many resource types, you can combine queries by using logical operators such as _and_, _not_ and _has_ operators.
 
 [id="cli-creating-a-granular-permission-filter_{context}"]
 .CLI procedure

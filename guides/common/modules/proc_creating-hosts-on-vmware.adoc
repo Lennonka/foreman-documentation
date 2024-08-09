@@ -1,7 +1,7 @@
 [id="Creating_Hosts_on_VMware_{context}"]
 = Creating hosts on VMware
 
-The VMware vSphere provisioning process provides the option to create hosts over a network connection or using an existing image.
+The VMware vSphere provisioning process provides the option to create hosts over a network connection or by using an existing image.
 
 For network-based provisioning, you must create a host to access either {ProjectServer}'s integrated {SmartProxy} or an external {SmartProxyServer} on a VMware vSphere virtual network, so that the host has access to PXE provisioning services.
 The new host entry triggers the VMware vSphere server to create the virtual machine.

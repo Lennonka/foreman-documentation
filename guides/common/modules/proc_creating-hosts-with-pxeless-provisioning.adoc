@@ -87,16 +87,16 @@ ifndef::satellite[]
 * For *Generic image*, navigate to *Infrastructure* > *Subnets*, click *Boot disk* and select *Generic image*.
 endif::[]
 * For *Subnet image*, navigate to *Infrastructure* > *Subnets*, click the dropdown menu in the *Actions* column of the required subnet and select *Subnet generic image*.
-. Write the ISO to a USB storage device using the `dd` utility or `livecd-tools` if required.
+. Write the ISO to a USB storage device by using the `dd` utility or `livecd-tools` if required.
 . When you start the host and boot from the ISO or the USB storage device, the host connects to {ProjectServer} and starts installing operating system from its kickstart tree.
 ifdef::satellite,katello,orcharhino[]
 +
-When the installation completes, the host also registers to {ProjectServer} using the activation key and installs the necessary configuration and management tools from the *{project-client-name}* repository.
+When the installation completes, the host also registers to {ProjectServer} by using the activation key and installs the necessary configuration and management tools from the *{project-client-name}* repository.
 endif::[]
 
 [id="cli-creating-hosts-with-pxe-less-provisioning_{context}"]
 .CLI procedure
-. Create the host using the `hammer host create` command.
+. Create the host by using the `hammer host create` command.
 +
 [options="nowrap" subs="+quotes"]
 ----
@@ -110,7 +110,7 @@ endif::[]
 --name "_My_Host_Name_" \
 --organization "_My_Organization_"
 ----
-. Ensure that your network interface options are set using the `hammer host interface update` command.
+. Ensure that your network interface options are set by using the `hammer host interface update` command.
 +
 [options="nowrap" subs="+quotes"]
 ----
@@ -120,7 +120,7 @@ endif::[]
 --primary true \
 --provision true
 ----
-. Download the boot disk from {ProjectServer} using the `hammer bootdisk` command:
+. Download the boot disk from {ProjectServer} by using the `hammer bootdisk` command:
 +
 ifndef::satellite[]
 * For *Host image*:
@@ -155,9 +155,9 @@ endif::[]
 
 +
 This creates a boot ISO for your host to use.
-. Write the ISO to a USB storage device using the `dd` utility or `livecd-tools` if required.
+. Write the ISO to a USB storage device by using the `dd` utility or `livecd-tools` if required.
 . When you start the physical host and boot from the ISO or the USB storage device, the host connects to {ProjectServer} and starts installing operating system from its kickstart tree.
 ifdef::satellite,katello,orcharhino[]
 +
-When the installation completes, the host also registers to {ProjectServer} using the activation key and installs the necessary configuration and management tools from the *{project-client-name}* repository.
+When the installation completes, the host also registers to {ProjectServer} by using the activation key and installs the necessary configuration and management tools from the *{project-client-name}* repository.
 endif::[]

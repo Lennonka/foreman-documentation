@@ -1,7 +1,7 @@
 [id="Creating_Hosts_with_UEFI_HTTP_Boot_Provisioning_{context}"]
 = Creating hosts with UEFI HTTP boot provisioning
 
-You can provision hosts from {Project} using the UEFI HTTP Boot.
+You can provision hosts from {Project} by using the UEFI HTTP Boot.
 This is the only method with which you can provision hosts in IPv6 network.
 
 To use the CLI instead of the {ProjectWebUI}, see the xref:cli-creating-hosts-with-uefi-http-boot-provisioning_{context}[].
@@ -60,7 +60,7 @@ This also includes creating the necessary directories and files for UEFI booting
 When you start the physical host and set its boot mode to UEFI HTTP, the host detects the defined DHCP service, receives HTTP endpoint of {SmartProxy} with the Kickstart tree and installs the operating system.
 
 ifdef::katello,satellite,orcharhino[]
-When the installation completes, the host also registers to {ProjectServer} using the activation key and installs the necessary configuration and management tools from the {project-client-name} repository.
+When the installation completes, the host also registers to {ProjectServer} by using the activation key and installs the necessary configuration and management tools from the {project-client-name} repository.
 endif::[]
 
 [id="cli-creating-hosts-with-uefi-http-boot-provisioning_{context}"]
@@ -97,7 +97,7 @@ endif::[]
 --organization "_My_Organization_" \
 --pxe-loader "Grub2 UEFI HTTP"
 ----
-. Ensure the network interface options are set using the `hammer host interface update` command:
+. Ensure the network interface options are set by using the `hammer host interface update` command:
 +
 [options="nowrap" subs="+quotes"]
 ----
@@ -116,5 +116,5 @@ This also includes creating the necessary directories and files for UEFI booting
 When you start the physical host and set its boot mode to UEFI HTTP, the host detects the defined DHCP service, receives HTTP endpoint of {SmartProxy} with the Kickstart tree and installs the operating system.
 
 ifdef::katello,satellite,orcharhino[]
-When the installation completes, the host also registers to {ProjectServer} using the activation key and installs the necessary configuration and management tools from the {project-client-name} repository.
+When the installation completes, the host also registers to {ProjectServer} by using the activation key and installs the necessary configuration and management tools from the {project-client-name} repository.
 endif::[]

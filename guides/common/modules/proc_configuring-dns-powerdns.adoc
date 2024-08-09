@@ -1,7 +1,7 @@
 [id="configuring_dns_powerdns_{context}"]
 = Configuring dns_powerdns
 
-The _dns_powerdns_ DNS provider manages DNS records using the https://www.powerdns.com/[PowerDNS] REST API.
+The _dns_powerdns_ DNS provider manages DNS records by using the https://www.powerdns.com/[PowerDNS] REST API.
 
 .Procedure
 * You can use `{foreman-installer}` to configure `dns_powerdns`:

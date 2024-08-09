@@ -118,19 +118,19 @@ Verify that SSO is working as expected.
 
 With a running Apache server, users making HTTP requests against the server are authenticated if the client has a valid Kerberos ticket.
 
-. Retrieve the Kerberos ticket of the LDAP user, using the following command:
+. Retrieve the Kerberos ticket of the LDAP user, by using the following command:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----
 # kinit ldapuser
 ----
-. View the Kerberos ticket, using the following command:
+. View the Kerberos ticket, by using the following command:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----
 # klist
 ----
-. View output from successful SSO-based authentication, using the following command:
+. View output from successful SSO-based authentication, by using the following command:
 +
 [options="nowrap", subs="+quotes,attributes"]
 ----

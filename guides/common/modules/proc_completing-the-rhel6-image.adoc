@@ -47,12 +47,12 @@ NOZEROCONF=yes
 ----
 # poweroff
 ----
-. On your {RHEL} Workstation, log in as root and reset and clean the image using the `virt-sysprep` command so it can be used to create instances without issues:
+. On your {RHEL} Workstation, log in as root and reset and clean the image by using the `virt-sysprep` command so it can be used to create instances without issues:
 +
 ----
 # virt-sysprep -d rhel6
 ----
-. Reduce image size using the `virt-sparsify` command.
+. Reduce image size by using the `virt-sparsify` command.
 This command converts any free space within the disk image back to free space within the host:
 +
 ----

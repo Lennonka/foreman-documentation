@@ -42,7 +42,7 @@ For example:
 --foreman-logging-layout json \
 --foreman-logging-type file
 ----
-. Optional: Inspect the log messages using `jq`:
+. Optional: Inspect the log messages by using `jq`:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

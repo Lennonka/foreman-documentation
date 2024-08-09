@@ -10,7 +10,7 @@ Use the following procedure to create a webhook template in the {ProjectWebUI}.
 . Enter a name for the template.
 . Use the editor to make changes to the template payload.
 +
-A webhook HTTP payload must be created using {Project} template syntax.
+A webhook HTTP payload must be created by using {Project} template syntax.
 The webhook template can use a special variable called `@object` that can represent the main object of the event.
 `@object` can be missing in case of certain events.
 You can determine what data are actually available with the `@payload` variable.

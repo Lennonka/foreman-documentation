@@ -14,5 +14,5 @@ You are then prompted to insert a name for the cloned role, for example _org-1 a
 The default filters work for most use cases.
 However, you can optionally click *Edit* to change the properties for each filter.
 For some filters, you can enable the *Override* option if you want the role to be able to access resources in additional locations and organizations.
-For example, by selecting the *Domain* resource type, the *Override* option, and then additional locations and organizations using the *Locations* and *Organizations* tabs, you allow this role to access domains in the additional locations and organizations that is not associated with this role.
+For example, by selecting the *Domain* resource type, the *Override* option, and then additional locations and organizations by using the *Locations* and *Organizations* tabs, you allow this role to access domains in the additional locations and organizations that is not associated with this role.
 You can also click *New filter* to associate new filters with this role.

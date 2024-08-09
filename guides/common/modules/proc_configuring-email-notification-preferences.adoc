@@ -18,7 +18,7 @@ If you want to send email notifications to a group email address instead of an i
 . On the *User* tab, verify the value of the *Mail* field.
 Email notifications will be sent to the address in this field.
 . On the *Email Preferences* tab, select *Mail Enabled*.
-. Select the notifications you want the user to receive using the drop-down menus next to the notification types.
+. Select the notifications you want the user to receive by using the drop-down menus next to the notification types.
 +
 [NOTE]
 ====

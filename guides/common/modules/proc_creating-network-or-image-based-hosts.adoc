@@ -7,7 +7,7 @@ In {Project}, you can use {CRname} provisioning to create hosts over a network c
 This new host entry triggers the {CRname} server to create and start a virtual machine.
 If the virtual machine detects the defined {SmartProxyServer} through the virtual network, the virtual machine boots to PXE and begins to install the chosen operating system.
 
-* If you want to create a host with an existing image, the new host entry triggers the {CRname} server to create the virtual machine using a pre-existing image as a basis for the new volume.
+* If you want to create a host with an existing image, the new host entry triggers the {CRname} server to create the virtual machine by using a pre-existing image as a basis for the new volume.
 
 To use the CLI instead of the {ProjectWebUI}, see the xref:cli-creating-network-or-image-based-hosts_{context}[].
 

@@ -113,14 +113,14 @@ _990_
 ----
 # systemctl enable --now dhcpd
 ----
-. Export the DHCP configuration and lease files using NFS:
+. Export the DHCP configuration and lease files by using NFS:
 +
 [options="nowrap" subs="+quotes,attributes"]
 ----
 # {client-package-install-el8} {nfs-server-package}
 # systemctl enable --now nfs-server
 ----
-. Create directories for the DHCP configuration and lease files that you want to export using NFS:
+. Create directories for the DHCP configuration and lease files that you want to export by using NFS:
 +
 [options="nowrap"]
 ----
@@ -164,7 +164,7 @@ Note that the IP address that you enter is the {Project} or {SmartProxy} IP addr
 # firewall-cmd --add-port=7911/tcp
 ----
 . Optional: Configure the firewall for external access to NFS.
-Clients are configured using NFSv3.
+Clients are configured by using NFSv3.
 +
 [options="nowrap"]
 ----
