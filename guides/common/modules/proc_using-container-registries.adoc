@@ -24,8 +24,8 @@ If you need pushed content on {SmartProxyServers} as well, use {SmartProxy} sync
 For more information, see xref:Managing_Container_Name_Patterns_{context}[].
 This is to ensure that users can push and pull from the same path.
 * Users are required to push and pull from the same path.
-If you use the label-based schema, pull using labels.
-If you use the ID-based schema, pull using IDs.
+If you use the label-based schema, pull by using labels.
+If you use the ID-based schema, pull by using IDs.
 
 .Procedure
 * Logging in to the container registry:

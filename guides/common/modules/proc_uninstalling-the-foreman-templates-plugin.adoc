@@ -4,7 +4,7 @@
 Use the following procedure to avoid errors after removing the foreman_templates plugin.
 
 .Procedure
-. Disable the plugin using the {Project} installer:
+. Disable the plugin by using the {Project} installer:
 +
 [options="nowrap", subs="verbatim,quotes,attributes"]
 ----

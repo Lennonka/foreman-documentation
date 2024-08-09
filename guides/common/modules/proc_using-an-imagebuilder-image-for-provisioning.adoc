@@ -9,11 +9,11 @@ The preferred image type is TAR.
 Ensure that your blueprint to build the TAR image includes a kernel package.
 
 ifndef::foreman-deb[]
-For more information about integrating {the-Cockpit} with {Project}, see {ManagingHostsDocURL}Host_Management_and_Monitoring_Using_Cockpit_managing-hosts[Host management and monitoring using {the-Cockpit}] in _{ManagingHostsDocTitle}_.
+For more information about integrating {the-Cockpit} with {Project}, see {ManagingHostsDocURL}Host_Management_and_Monitoring_by_Using_Cockpit_managing-hosts[Host management and monitoring by using {the-Cockpit}] in _{ManagingHostsDocTitle}_.
 endif::[]
 
 .Prerequisites
-* An existing TAR image created using {LoraxCompose}.
+* An existing TAR image created by using {LoraxCompose}.
 
 .Procedure
 ifdef::katello,satellite,orcharhino[]
@@ -30,6 +30,6 @@ endif::[]
 . In the *Value* field, enter the absolute path or a relative path in the following format `custom/_product_/_repository_/_image_name_` that points to the exact location where you store the image.
 . Click *Submit* to save your changes.
 
-You can use this image for bare-metal provisioning and provisioning using a compute resource.
+You can use this image for both bare-metal and compute-resource provisioning.
 For more information about bare-metal provisioning, see xref:Using_PXE_to_Provision_Hosts_{context}[].
 For more information about provisioning with different compute resources, see the relevant chapter for the compute resource that you want to use.

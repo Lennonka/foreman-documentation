@@ -2,7 +2,7 @@
 = Uploading content to {customrpm} repositories
 
 You can upload individual RPMs and source RPMs to {customrpm} repositories.
-You can upload RPMs using the {ProjectWebUI} or the Hammer CLI.
+You can upload RPMs by using the {ProjectWebUI} or the Hammer CLI.
 You must use the Hammer CLI to upload source RPMs.
 
 .Procedure

@@ -1,10 +1,10 @@
 [id="puppet_guide_updating_a_puppet_module_{context}"]
 = Updating a Puppet module
 
-You can update an existing Puppet module using the `puppet` command.
+You can update an existing Puppet module by using the `puppet` command.
 
 .Procedure
-. Connect to your Puppet server using SSH and find out where the Puppet modules are located:
+. Connect to your Puppet server by using SSH and find out where the Puppet modules are located:
 +
 [options="nowrap", subs="verbatim,quotes,attributes"]
 ----

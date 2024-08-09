@@ -47,7 +47,7 @@ Issues that have the *Inhibitor* flag are considered crucial and are likely to b
 Issues that have the *Has Remediation* flag contain remediation that can help you fix the issue.
 .. Click an issue that is flagged as *Has Remediation* to expand it.
 
-* If the issue contains a remediation *Command*, you can fix it directly from {Project} using remote execution.
+* If the issue contains a remediation *Command*, you can fix it directly from {Project} by using remote execution.
 Select the issue.
 * If the issue contains only a remediation *Hint*, use the hint to fix the issue on the host manually.
 

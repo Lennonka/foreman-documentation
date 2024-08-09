@@ -35,6 +35,7 @@ For more information on performing an incremental Library export, see xref:expor
 .On the downstream {ProjectServer}
 . Bring the content exported from the upstream {ProjectServer} over to the hard disk.
 . Place it inside a directory under `/var/lib/pulp/imports`.
-. Import the content to an organization using the procedure outlined in xref:Importing_into_the_Library_Environment_{context}[].
+. Import the content to an organization.
+For more information, see xref:Importing_into_the_Library_Environment_{context}[].
 +
-You can then manage content using content views or lifecycle environments as you require.
+You can then manage content by using content views or lifecycle environments as you require.

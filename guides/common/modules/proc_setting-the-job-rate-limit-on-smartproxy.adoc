@@ -13,7 +13,7 @@ By default, the maximum number of active jobs is unlimited.
 ====
 
 .Procedure
-* Set the maximum number of active jobs using `{foreman-installer}`:
+* Set the maximum number of active jobs by using `{foreman-installer}`:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

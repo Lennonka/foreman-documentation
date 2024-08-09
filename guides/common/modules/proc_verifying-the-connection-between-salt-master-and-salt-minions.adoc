@@ -4,7 +4,7 @@
 Verify the connection between your Salt Master and Salt Minions.
 
 .Procedure
-. Connect to your Salt Master using SSH:
+. Connect to your Salt Master by using SSH:
 +
 [options="nowrap" subs="attributes"]
 ----

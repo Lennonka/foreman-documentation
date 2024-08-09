@@ -6,7 +6,7 @@ Use this procedure if your {ProjectServer} is not connected to the Red{nbsp}Hat 
 [WARNING]
 ====
 // Keep this in sync with common/modules/snip_warning-maintain-config-noop.adoc
-* If you customized configuration files, either manually or using a tool such as Hiera, these changes are overwritten when you enter the `{foreman-maintain}` command during upgrading or updating.
+* If you customized configuration files, either manually or by using a tool such as Hiera, these changes are overwritten when you enter the `{foreman-maintain}` command during upgrading or updating.
 You can use the `--noop` option with the `{foreman-installer}` command to review the changes that are applied during upgrading or updating.
 ifdef::satellite[]
 For more information, see the Red Hat Knowledgebase solution https://access.redhat.com/solutions/3351311[How to use the noop option to check for changes in {Project} config files during an upgrade].
@@ -63,7 +63,7 @@ endif::[]
 
 . In the {ProjectWebUI}, navigate to *Hosts* > *Discovered hosts*.
 If there are discovered hosts available, turn them off and then delete all entries under the `Discovered hosts` page.
-Select all other organizations in turn using the organization setting menu and repeat this action as required.
+Select all other organizations in turn by using the organization setting menu and repeat this action as required.
 Reboot these hosts after the upgrade has completed.
 
 . Remove old repositories:
@@ -174,7 +174,7 @@ For more information, see {InstallingServerDisconnectedDocURL}resolving-package-
 
 include::snip_steps-needs-reboot.adoc[]
 
-. Optional: If you made manual edits to DNS or DHCP configuration files, check and restore any changes required to the DNS and DHCP configuration files using the backups that you made.
+. Optional: If you made manual edits to DNS or DHCP configuration files, check and restore any changes required to the DNS and DHCP configuration files by using the backups that you made.
 
 . If you make changes in the previous step, restart {Project} services:
 +

@@ -1,11 +1,11 @@
 [id="using-ansible-vault-with-{project-context}_{context}"]
 = Using Ansible Vault with {Project}
 
-You can encrypt sensitive Ansible data files using the Ansible Vault tool and configure Ansible to access the encrypted files using a password stored in a file.
+You can encrypt sensitive Ansible data files by using the Ansible Vault tool and configure Ansible to access the encrypted files by using a password stored in a file.
 
 .Procedure
 . If you customized `/etc/ansible/ansible.cfg`, copy your configuration from `/etc/ansible/ansible.cfg` to `/usr/share/foreman-proxy/.ansible.cfg`.
-. Encrypt the sensitive file using the `ansible-vault` command:
+. Encrypt the sensitive file by using the `ansible-vault` command:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

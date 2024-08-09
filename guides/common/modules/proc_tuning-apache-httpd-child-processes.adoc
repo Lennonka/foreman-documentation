@@ -10,7 +10,7 @@ You can adapt the configuration of httpd event to handle more concurrent request
 [WARNING]
 ====
 Configuring these numbers in `custom-hiera.yaml` locks them.
-If you change these numbers using `{foreman-installer} --tuning=_My_Tuning_Option_`, your `custom-hiera.yaml` will overwrite this setting.
+If you change these numbers by using `{foreman-installer} --tuning=_My_Tuning_Option_`, your `custom-hiera.yaml` will overwrite this setting.
 Set your numbers only if you have specific need for it.
 ====
 

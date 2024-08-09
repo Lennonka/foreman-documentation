@@ -1,7 +1,7 @@
 [id="verifying-dns-resolution_{context}"]
 = Verifying DNS resolution
 
-Verify the full forward and reverse DNS resolution using a fully-qualified domain name to prevent issues while installing {Project}.
+Verify the full forward and reverse DNS resolution by using a fully-qualified domain name to prevent issues while installing {Project}.
 
 .Procedure
 

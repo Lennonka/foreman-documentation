@@ -1,7 +1,7 @@
 [id="Securing_the_dhcpd_API_{context}"]
 = Securing the dhcpd API
 
-{SmartProxy} interacts with DHCP daemon using the dhcpd API to manage DHCP.
+{SmartProxy} interacts with DHCP daemon by using the dhcpd API to manage DHCP.
 By default, the dhcpd API listens to any host without access control.
 You can add an `omapi_key` to provide basic security.
 

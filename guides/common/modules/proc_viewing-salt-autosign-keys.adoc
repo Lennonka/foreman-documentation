@@ -9,7 +9,7 @@ By default, hosts are supplied with a Salt key during host provisioning.
 
 [NOTE]
 ====
-This feature only covers the Salt Autosign using the `autosign.conf` authentication.
+This feature only covers the Salt Autosign by using the `autosign.conf` authentication.
 ====
 
 .Procedure
