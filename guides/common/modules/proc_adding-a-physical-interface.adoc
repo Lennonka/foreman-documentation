@@ -28,7 +28,7 @@ If using kickstart provisioning, a configuration file is automatically created f
 . Select whether this is the *Primary* interface for the host.
 The DNS name from the primary interface is used as the host portion of the FQDN.
 . Select whether this is the *Provision* interface for the host.
-TFTP boot takes place using the provisioning interface.
+TFTP boot takes place by using the provisioning interface.
 For image-based provisioning, the script to complete the provisioning is executed through the provisioning interface.
 . Select whether to use the interface for *Remote execution*.
 . Leave the *Virtual NIC* checkbox clear.

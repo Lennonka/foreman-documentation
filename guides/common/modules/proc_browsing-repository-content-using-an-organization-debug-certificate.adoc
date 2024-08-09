@@ -1,7 +1,7 @@
-[id="Browsing_Repository_Content_Using_an_Organization_Debug_Certificate_{context}"]
-= Browsing repository content using an organization debug certificate
+[id="Browsing_Repository_Content_by_Using_an_Organization_Debug_Certificate_{context}"]
+= Browsing repository content by using an organization debug certificate
 
-You can view an organization's repository content using a web browser or using the API if you have a debug certificate for that organization.
+You can view an organization's repository content by using a web browser or by using the API if you have a debug certificate for that organization.
 
 .Prerequisites
 * You created and downloaded an organization certificate.
@@ -19,7 +19,7 @@ $ vi 'Default Organization-key-cert.pem'
 . To use a browser, you must first convert the X.509 certificate to a format your browser supports and then import the certificate.
 
 .For Firefox users
-. Convert the certificate into the PKCS12 format using the following command:
+. Convert the certificate into the PKCS12 format by using the following command:
 +
 [subs="+quotes"]
 ----

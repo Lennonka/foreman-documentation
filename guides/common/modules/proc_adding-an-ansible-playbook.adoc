@@ -26,5 +26,5 @@ You can only edit the directory path or git URL as long as it is not used by any
 
 [TIP]
 ====
-Making changes to any Ansible roles included in your Ansible Playbook does not require reimporting the Ansible Playbook using the {ProjectWebUI}.
+Making changes to any Ansible roles included in your Ansible Playbook does not require reimporting the Ansible Playbook by using the {ProjectWebUI}.
 ====

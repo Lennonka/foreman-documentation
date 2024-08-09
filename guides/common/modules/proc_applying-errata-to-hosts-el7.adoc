@@ -13,7 +13,7 @@ include::snip_applying-errata.adoc[]
 --host _client.example.com_
 ----
 . Apply the most recent erratum to the host.
-Identify the erratum to apply using the erratum ID.
+Identify the erratum to apply by using the erratum ID.
 +
 Using `Remote Execution`
 +

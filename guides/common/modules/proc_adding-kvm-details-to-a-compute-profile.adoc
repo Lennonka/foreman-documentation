@@ -2,7 +2,7 @@
 = Adding KVM details to a compute profile
 
 Use this procedure to add KVM hardware settings to a compute profile.
-When you create a host on KVM using this compute profile, these settings are automatically populated.
+When you create a host on KVM by using this compute profile, these settings are automatically populated.
 
 To use the CLI instead of the {ProjectWebUI}, see the xref:cli-adding-kvm-details-to-a-compute-profile_{context}[].
 

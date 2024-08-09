@@ -2,7 +2,7 @@
 = Adding Microsoft Azure Resource Manager details to a compute profile
 
 Use this procedure to add Microsoft Azure hardware settings to a compute profile.
-When you create a host on Microsoft Azure using this compute profile, these settings are automatically populated.
+When you create a host on Microsoft Azure by using this compute profile, these settings are automatically populated.
 
 To use the CLI instead of the {ProjectWebUI}, see the xref:cli-Adding_Microsoft_Azure_Resource_Manager_Details_to_a_Compute_Profile_{context}[].
 
@@ -16,8 +16,8 @@ To use the CLI instead of the {ProjectWebUI}, see the xref:cli-Adding_Microsoft_
 . In the *Username* field, enter a user name to authenticate with.
 Note that the username that you enter for compute profile must be the same that you use when creating an image.
 . To authenticate the user, use one of the following options:
-* To authenticate using a password, enter a password in the *Password* field.
-* To authenticate using an SSH key, enter an SSH key in the *SSH Key* field.
+* To authenticate by using a password, enter a password in the *Password* field.
+* To authenticate by using an SSH key, enter an SSH key in the *SSH Key* field.
 . Optional: If you want the virtual machine to use a premium virtual machine disk, select the *Premium OS Disk* checkbox.
 . From the *OS Disk Caching* list, select the disc caching setting.
 . Optional: In the *Custom Script Command* field, enter commands to perform on the virtual machine when the virtual machine is provisioned.

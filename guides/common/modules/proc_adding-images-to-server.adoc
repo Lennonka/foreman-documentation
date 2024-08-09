@@ -1,7 +1,7 @@
 [id="adding-images-to-server_{context}"]
 = Adding {CRname} images to {ProjectServer}
 
-To create hosts using image-based provisioning, you must add information about the image, such as access details and the image location, to your {ProjectServer}.
+To create hosts by using image-based provisioning, you must add information about the image, such as access details and the image location, to your {ProjectServer}.
 
 ifdef::kvm-provisioning[Note that you can manage only directory pool storage types through {Project}.]
 
@@ -16,7 +16,7 @@ To use the CLI instead of the {ProjectWebUI}, see the xref:cli-adding-images-to-
 . From the *Architecture* list, select the operating system architecture.
 . In the *Username* field, enter the SSH user name for image access.
 ifdef::kvm-provisioning,rhv-provisioning,openstack-provisioning[This is normally the `root` user.]
-ifdef::gce-provisioning[Specify a user other than `root`, because the `root` user cannot connect to a GCE instance using SSH keys. The username must begin with a letter and consist of lowercase letters and numbers.]
+ifdef::gce-provisioning[Specify a user other than `root`, because the `root` user cannot connect to a GCE instance by using SSH keys. The username must begin with a letter and consist of lowercase letters and numbers.]
 ifdef::azure-provisioning[You cannot use the `root` user.]
 
 ifdef::kvm-provisioning,rhv-provisioning,openstack-provisioning[. In the *Password* field, enter the SSH password for image access.]
@@ -97,7 +97,7 @@ Use the `--uuid` field to store the full path of the image location on the {Open
 ----
 endif::[]
 ifeval::["{context}" == "gce-provisioning"]
-With the `--username` option, specify a user other than `root`, because the `root` user cannot connect to a GCE instance using SSH keys.
+With the `--username` option, specify a user other than `root`, because the `root` user cannot connect to a GCE instance by using SSH keys.
 The username must begin with a letter and consist of lowercase letters and numbers.
 +
 [options="nowrap" subs="+quotes,attributes"]

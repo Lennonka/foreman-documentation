@@ -1,7 +1,7 @@
-[id="Authenticating_Salt_Minions_Using_Salt_Autosign_Grains_{context}"]
-= Authenticating Salt Minions using Salt autosign Grains
+[id="Authenticating_Salt_Minions_by_Using_Salt_Autosign_Grains_{context}"]
+= Authenticating Salt Minions by using Salt autosign Grains
 
-Configure {Project} to automatically accept Salt Minions using Salt autosign Grains.
+Configure {Project} to automatically accept Salt Minions by using Salt autosign Grains.
 
 .Procedure
 . Add the reactor to the `salt/auth` event.

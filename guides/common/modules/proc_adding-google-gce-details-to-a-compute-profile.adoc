@@ -2,7 +2,7 @@
 = Adding Google GCE details to a compute profile
 
 Use this procedure to add Google GCE hardware settings to a compute profile.
-When you create a host on Google GCE using this compute profile, these settings are automatically populated.
+When you create a host on Google GCE by using this compute profile, these settings are automatically populated.
 
 To use the CLI instead of the {ProjectWebUI}, see the xref:cli-Adding_Google_GCE_Details_to_a_Compute_Profile_{context}[].
 

@@ -89,7 +89,7 @@ endif::[]
 
 [id="cli-adding-installation-media_{context}"]
 .CLI procedure
-* Create the installation medium using the `hammer medium create` command:
+* Create the installation medium by using the `hammer medium create` command:
 +
 [options="nowrap", subs="+quotes,verbatim,attributes"]
 ----

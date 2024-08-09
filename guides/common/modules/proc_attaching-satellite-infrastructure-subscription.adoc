@@ -5,11 +5,11 @@
 ====
 ifeval::["{context}" == "{smart-proxy-context}"]
 Skip this step if you have SCA enabled on {Project}.
-There is no requirement of attaching the {SatelliteSub} to the {SmartProxyServer} using subscription-manager.
+There is no requirement of attaching the {SatelliteSub} to the {SmartProxyServer} by using subscription-manager.
 endif::[]
 ifeval::["{context}" == "{project-context}"]
 Skip this step if you have SCA enabled on {Team} Customer Portal.
-There is no requirement of attaching the {SatelliteSub} to the {ProjectServer} using subscription-manager.
+There is no requirement of attaching the {SatelliteSub} to the {ProjectServer} by using subscription-manager.
 endif::[]
 For more information about SCA, see https://access.redhat.com/articles/simple-content-access[Simple Content Access].
 ====

@@ -33,7 +33,7 @@ environment: production
 
 . Verify the ntp configuration.
 +
-Connect to your host using SSH and check the content of `/etc/ntp.conf`.
+Connect to your host by using SSH and check the content of `/etc/ntp.conf`.
 +
 This example assumes your host is running _CentOS 7_.
 Other operating systems may store the ntp config file in a different path.
