@@ -7,19 +7,19 @@ include::modules/ref_registration-methods.adoc[leveloffset=+1]
 endif::[]
 
 // Global registration
-include::modules/con_registering-hosts-by-using-global-registration.adoc[leveloffset=+1]
+include::modules/con_registering-hosts-by-by-using-global-registration.adoc[leveloffset=+1]
 
 include::modules/ref_global-parameters-for-registration.adoc[leveloffset=+2]
 
 include::modules/proc_registering-a-host.adoc[leveloffset=+2]
 
-include::modules/proc_customizing-host-registration-by-using-snippets.adoc[leveloffset=+2]
+include::modules/proc_customizing-host-registration-by-by-using-snippets.adoc[leveloffset=+2]
 
 include::modules/proc_customizing-the-registration-templates.adoc[leveloffset=+2]
 
 ifdef::satellite,orcharhino[]
 // Bootstrap script
-include::modules/proc_registering-hosts-by-using-the-bootstrap-script.adoc[leveloffset=+1]
+include::modules/proc_registering-hosts-by-by-using-the-bootstrap-script.adoc[leveloffset=+1]
 
 include::modules/proc_setting-permissions-for-the-bootstrap-script.adoc[leveloffset=+2]
 

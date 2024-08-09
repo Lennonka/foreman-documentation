@@ -15,7 +15,7 @@ ifdef::satellite[]
 include::common/modules/proc_providing-feedback-on-red-hat-documentation.adoc[leveloffset=+1]
 endif::[]
 
-include::common/modules/con_introducing-configuration-management-using-puppet.adoc[leveloffset=+1]
+include::common/modules/con_introducing-configuration-management-by-using-puppet.adoc[leveloffset=+1]
 
 include::common/modules/con_how-puppet-integrates-with-project.adoc[leveloffset=+2]
 
@@ -71,7 +71,7 @@ include::common/modules/proc_assigning-a-puppet-class-to-an-individual-host.adoc
 
 include::common/modules/con_enforcing-puppet-configuration-on-hosts.adoc[leveloffset=+1]
 
-include::common/modules/proc_running-puppet-once-using-ssh.adoc[leveloffset=+2]
+include::common/modules/proc_running-puppet-once-by-using-ssh.adoc[leveloffset=+2]
 
 include::common/modules/con_understanding-intervals-of-automatic-enforcement.adoc[leveloffset=+2]
 

@@ -23,7 +23,7 @@ include::modules/proc_adding-amazon-ec2-details-to-a-compute-profile.adoc[levelo
 
 include::modules/proc_creating-image-based-hosts-on-amazon-ec2.adoc[leveloffset=+1]
 
-include::modules/proc_connecting-to-an-amazon-ec2-instance-using-ssh.adoc[leveloffset=+1]
+include::modules/proc_connecting-to-an-amazon-ec2-instance-by-using-ssh.adoc[leveloffset=+1]
 
 include::modules/proc_configuring-a-finish-template-for-amazon-ec2.adoc[leveloffset=+1]
 

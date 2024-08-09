@@ -2,6 +2,6 @@ include::modules/con_configuring-inter-server-synchronization.adoc[]
 
 include::modules/con_iss-scenarios.adoc[leveloffset=+1]
 
-include::modules/proc_configuring-projectserver-to-synchronize-content-by-using-exports.adoc[leveloffset=+1]
+include::modules/proc_configuring-projectserver-to-synchronize-content-by-by-using-exports.adoc[leveloffset=+1]
 
 include::modules/proc_configuring-projectserver-to-synchronize-content-over-a-network.adoc[leveloffset=+1]

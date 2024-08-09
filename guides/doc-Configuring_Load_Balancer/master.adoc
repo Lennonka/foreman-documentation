@@ -44,18 +44,18 @@ include::common/modules/proc_verifying-the-load-balancer-configuration.adoc[leve
 include::common/modules/con_registering-clients-to-the-load-balancer.adoc[leveloffset=+1]
 
 ifdef::orcharhino,satellite[]
-include::common/modules/proc_registering-clients-using-host-registration.adoc[leveloffset=+2]
+include::common/modules/proc_registering-clients-by-using-host-registration.adoc[leveloffset=+2]
 endif::[]
 
 ifdef::orcharhino,satellite[]
-include::common/modules/proc_registering-clients-using-the-bootstrap-script.adoc[leveloffset=+2]
+include::common/modules/proc_registering-clients-by-using-the-bootstrap-script.adoc[leveloffset=+2]
 endif::[]
 
 include::common/modules/con_propagating-scap-content-through-the-load-balancer.adoc[leveloffset=+1]
 
-include::common/modules/proc_propagating-scap-content-using-ansible-deployment.adoc[leveloffset=+2]
+include::common/modules/proc_propagating-scap-content-by-using-ansible-deployment.adoc[leveloffset=+2]
 
-include::common/modules/proc_propagating-scap-content-using-puppet-deployment.adoc[leveloffset=+2]
+include::common/modules/proc_propagating-scap-content-by-using-puppet-deployment.adoc[leveloffset=+2]
 endif::[]
 
 :numbered!:

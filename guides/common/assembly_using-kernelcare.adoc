@@ -19,4 +19,4 @@ include::modules/proc_installing-the-kernelcare-package-on-hosts.adoc[leveloffse
 
 include::modules/proc_viewing-patched-kernel-version.adoc[leveloffset=+1]
 
-include::modules/proc_live-patching-hosts-using-kernelcare.adoc[leveloffset=+1]
+include::modules/proc_live-patching-hosts-by-using-kernelcare.adoc[leveloffset=+1]

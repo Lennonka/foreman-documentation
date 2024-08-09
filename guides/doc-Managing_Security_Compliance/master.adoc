@@ -69,13 +69,13 @@ ifdef::orcharhino,satellite[]
 include::common/modules/proc_applying-remote-scap-resources-in-a-disconnected-environment.adoc[leveloffset=+2]
 endif::[]
 
-include::common/modules/proc_deploying-a-policy-in-a-host-group-using-ansible.adoc[leveloffset=+2]
+include::common/modules/proc_deploying-a-policy-in-a-host-group-by-using-ansible.adoc[leveloffset=+2]
 
-include::common/modules/proc_deploying-a-policy-on-a-host-using-ansible.adoc[leveloffset=+2]
+include::common/modules/proc_deploying-a-policy-on-a-host-by-using-ansible.adoc[leveloffset=+2]
 
-include::common/modules/proc_deploying-a-policy-in-a-host-group-using-puppet.adoc[leveloffset=+2]
+include::common/modules/proc_deploying-a-policy-in-a-host-group-by-using-puppet.adoc[leveloffset=+2]
 
-include::common/modules/proc_deploying-a-policy-on-a-host-using-puppet.adoc[leveloffset=+2]
+include::common/modules/proc_deploying-a-policy-on-a-host-by-using-puppet.adoc[leveloffset=+2]
 
 include::common/modules/proc_running-a-security-compliance-scan-on-demand.adoc[leveloffset=+1]
 

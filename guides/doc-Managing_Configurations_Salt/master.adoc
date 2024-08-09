@@ -21,9 +21,9 @@ include::common/modules/proc_configuring-salt.adoc[leveloffset=+1]
 
 include::common/modules/proc_configuring-salt-on-project.adoc[leveloffset=+2]
 
-include::common/modules/proc_authenticating-salt-minions-using-salt-autosign-grains.adoc[leveloffset=+2]
+include::common/modules/proc_authenticating-salt-minions-by-using-salt-autosign-grains.adoc[leveloffset=+2]
 
-include::common/modules/proc_authenticating-salt-minions-using-host-names.adoc[leveloffset=+2]
+include::common/modules/proc_authenticating-salt-minions-by-using-host-names.adoc[leveloffset=+2]
 
 include::common/modules/proc_enabling-salt-grain-uploads.adoc[leveloffset=+2]
 

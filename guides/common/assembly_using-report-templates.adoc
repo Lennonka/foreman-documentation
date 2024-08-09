@@ -6,11 +6,11 @@ include::modules/proc_creating-a-report-template.adoc[leveloffset=+1]
 
 include::modules/proc_exporting-report-templates.adoc[leveloffset=+1]
 
-include::modules/proc_exporting-report-templates-using-the-api.adoc[leveloffset=+1]
+include::modules/proc_exporting-report-templates-by-using-the-api.adoc[leveloffset=+1]
 
 include::modules/proc_importing-report-templates.adoc[leveloffset=+1]
 
-include::modules/proc_importing-report-templates-using-the-api.adoc[leveloffset=+1]
+include::modules/proc_importing-report-templates-by-using-the-api.adoc[leveloffset=+1]
 
 include::modules/proc_generating-a-list-of-installed-packages.adoc[leveloffset=+1]
 

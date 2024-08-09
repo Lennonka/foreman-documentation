@@ -18,9 +18,9 @@ include::modules/con_shellhooks-plugin.adoc[leveloffset=+1]
 
 include::modules/proc_installing-shellhooks-plugin.adoc[leveloffset=+1]
 
-include::modules/proc_passing-arguments-to-shellhook-script-using-webhooks.adoc[leveloffset=+1]
+include::modules/proc_passing-arguments-to-shellhook-script-by-using-webhooks.adoc[leveloffset=+1]
 
-include::modules/proc_passing-arguments-to-shellhook-script-using-curl.adoc[leveloffset=+1]
+include::modules/proc_passing-arguments-to-shellhook-script-by-using-curl.adoc[leveloffset=+1]
 
 include::modules/proc_creating-a-shellhook-to-print-arguments.adoc[leveloffset=+1]
 
